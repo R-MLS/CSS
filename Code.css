@@ -1,19 +1,19 @@
 /* Downvote pop up	-----------------------------------------*/
 
 .comment .midcol .arrow.down:hover:after{
-		content: "Please reserve downvotes for comments that add nothing to the discussion.";
-		display: block;
-		width: 100%;
-		padding: 8px 0;
-		margin:0;
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		background: #083B5D;
-		font-size: 16px;
-		color: #fff;
-		text-align: center;
-                z-index: 9999;
+    content: "Please reserve downvotes for comments that add nothing to the discussion.";
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    margin:0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #083B5D;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    z-index: 9999;
 }
 
 /* ---------------------Black Header Bar ----------------------------*/
@@ -35,21 +35,19 @@
 	padding: 0;
 }
 
-
 #sr-header-area a,
 div.srdrop span{
 	color: #fff !important;
-	
-
 }
-
 
 #sr-header-area div.srdrop.drop-choices a.choice {
         color: #336699 !important;
 }
+
 #sr-header-area #sr-more-link {
         background-color: #333;
 }
+
 a.gold{
 	color: #9a7d2e !important;
 }
@@ -62,45 +60,50 @@ body table#srList {
 	padding: 0;
 	margin-left: 10px;
 }
+
 div#RESShortcutsViewport{
 	padding: 0;
 	margin-right:60px;
 }
 
-#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash, #RESShortcutsSort {
-width: 10px;
-cursor: pointer;
-background: transparent !important;
-font-size: 100%!important;
-color: white !important;
-height: 18px;
-line-height: 15px;
-position: absolute;
-top: 0px !important;
-z-index: 999;
-background-color: transparent !important;
+#RESShortcutsRight, 
+#RESShortcutsLeft, 
+#RESShortcutsAdd, 
+#RESShortcutsTrash, 
+#RESShortcutsSort {
+    width: 10px;
+    cursor: pointer;
+    background: transparent !important;
+    font-size: 100%!important;
+    color: white !important;
+    height: 18px;
+    line-height: 15px;
+    position: absolute;
+    top: 0px !important;
+    z-index: 999;
+    background-color: transparent !important;
 }
 
 
 #RESShortcutsEditContainer {
-width: 48px;
-position: absolute;
-right: 5px;
-top: 0;
-z-index: 999;
-background-color: transparent !important;
-height: 16px;
+    width: 48px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    z-index: 999;
+    background-color: transparent !important;
+    height: 16px;
 }
 
 .entry {
-/* rasherdk: This may belong in another section */
-margin-left: 0 !important;
-padding-left: 3px;
+    /* rasherdk: This may belong in another section */
+    margin-left: 0 !important;
+    padding-left: 3px;
 }
 .keyHighlight{
 	outline: none !important;
-        background:#e6effa !important;
-        border-radius: 2px !important;
+    background:#e6effa !important;
+    border-radius: 2px !important;
 }
 .keyHighlight p.title a.title{
 	text-decoration: underline;
@@ -117,33 +120,30 @@ padding-left: 3px;
 	border-width: 1px 0;
 }
 
-	.login-form-side input[type=text],
-	.login-form-side input[type=password] {
-		border-color: #d2d2d2;
-	}
+.login-form-side input[type=text],
+.login-form-side input[type=password] {
+    border-color: #d2d2d2;
+}
 
 /* ------ Header dimensions / links the banner------- */
-
  
 #header {
-        background:url(%%plain%%);
-        height:180px;
-        position: relative;
-        width:100%;
-    }
+    background:url(%%plain%%);
+    height:180px;
+    position: relative;
+    width:100%;
+}
  
 #header-bottom-left {
-        line-height: 20px;
+    line-height: 20px;
     vertical-align: middle
-    }
-
-
+}
 
 #header-img{
-max-width:600px;
-max-height:159px;
-width:auto;
-height:auto; 
+    max-width:600px;
+    max-height:159px;
+    width:auto;
+    height:auto; 
 }
  
 #header-img-a {
@@ -154,92 +154,86 @@ height:auto;
     position: relative;
     z-index: 5;
     overflow: hidden
-    }
+}
  
 #header-img-a img{
-margin:0;
-padding:0;
-border:1px solid #fff;
-/*border:1px solid #89DE25;*/
-box-shadow:#1a1a1a 0 0px 3px;
-    }
+    margin:0;
+    padding:0;
+    border:1px solid #fff;
+    /*border:1px solid #89DE25;*/
+    box-shadow:#1a1a1a 0 0px 3px;
+}
 
 /* --The header image text--- */
  
-#header-img-a:after {
- 
-content: attr(title);
-position: absolute;
-width: inherit;
-left: 1px;
-right: 1px;
-bottom: 0px;
-padding: 0px 0px 0px 5px !important;
-background: #000;
-color: #fff;
-opacity: 0.7;
-z-index: 1000;
-font-size: 12px;
-margin-bottom:6px;
-text-shadow: 1px 1px 0 black;
-font-family: calibri,arial, serif;
-text-align: left
+#header-img-a:after { 
+    content: attr(title);
+    position: absolute;
+    width: inherit;
+    left: 1px;
+    right: 1px;
+    bottom: 0px;
+    padding: 0px 0px 0px 5px !important;
+    background: #000;
+    color: #fff;
+    opacity: 0.7;
+    z-index: 1000;
+    font-size: 12px;
+    margin-bottom:6px;
+    text-shadow: 1px 1px 0 black;
+    font-family: calibri,arial, serif;
+    text-align: left
 }
  
-
-
-
 /* --Tab Menu--- */
 
 #header .tabmenu {
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
     vertical-align: middle;
     margin-bottom: 15px
-    }
+}
 #header .tabmenu li a {
     background: none;
     border: none;
     color: white;
     text-transform: uppercase;
-    display: inline-block;
-    
-    
-    }
+    display: inline-block;    
+}
 #header .tabmenu li a:hover {
     color: white;
-  -webkit-box-shadow: 0 1px 0 #D0D0D0;
-    -moz-box-shadow: 0 1px 0 #D0D0D0
-    
-    }
-#header .tabmenu .selected a, #header .tabmenu .selected a:hover {
+    -webkit-box-shadow: 0 1px 0 #D0D0D0;
+    -moz-box-shadow: 0 1px 0 #D0D0D0    
+}
+
+#header .tabmenu .selected a, 
+#header .tabmenu .selected a:hover {
     background: white;
     color: black;
-text-shadow: 0 1px 0 #B5B5B5;
+    text-shadow: 0 1px 0 #B5B5B5;
     -webkit-text-shadow: 0 1px 0 #B5B5B5;
     -moz-text-shadow: 0 1px 0 #B5B5B5;
     -webkit-box-shadow: 0 1px 0 #D0D0D0;
     -moz-box-shadow: 0 1px 0 #D0D0D0
-    }
-
+}
 
 /* Replaces default sub text with image */
  
 .pagename{
-display:block!important;
-position:absolute;
-top:22px;
-left:430px;
-font-size:0px
+    display:block!important;
+    position:absolute;
+    top:22px;
+    left:430px;
+    font-size:0px
 }
 
 .pagename a{
-display:block!important;
-text-indent:-99999px;
-background:url(%%rMLSnext%%) no-repeat;
-margin:12px auto 0 auto;
-width: 245px;
-height: 76px;
-opacity:1!important
+    display:block!important;
+    text-indent:-99999px;
+    background:url(%%rMLSnext%%) no-repeat;
+    margin:12px auto 0 auto;
+    width: 245px;
+    height: 76px;
+    opacity:1!important
 }
 
 /* User Notification Bar */
@@ -252,6 +246,7 @@ opacity:1!important
 	display: block;
 	height: 23px !important;
 }
+
 body.res #header #header-bottom-right{
 	position: absolute;
 	top: 19px !important;
@@ -260,6 +255,7 @@ body.res #header #header-bottom-right{
 	display: block;
 	height: 23px !important;
 }
+
 #userbarToggle{
 	color: white !important;
 	background: none transparent !important;
@@ -268,7 +264,7 @@ body.res #header #header-bottom-right{
 
 #header-bottom-right a, #header-bottom-right .user {
     color: white
-    }
+}
 
 #userbarToggle:hover a,#userbarToggle:hover {
 	color: #89DE25 !important;
@@ -276,136 +272,217 @@ body.res #header #header-bottom-right{
 	border: none !important;
 }
 
-
-
-#header-bottom-right:hover a, #header-bottom-right:hover {color: #89DE25}
-
-#header-bottom-right:hover a, #header-bottom-right .user:hover {
-color: #89DE25
+#header-bottom-right:hover a, 
+#header-bottom-right:hover {
+    color: #89DE25
 }
 
-
+#header-bottom-right:hover a, 
+#header-bottom-right .user:hover {
+    color: #89DE25
+}
 
 /* Link Info SideBox (Downvotes/ Upvotes) */
 
-.linkinfo{background:-o-linear-gradient(top,#f8f8f8,#ffffff);color:#363636;text-align:center;font-size:11px;padding:0px 0px 0px 0px;border:1px solid #f1f1f1;width:270px;border-radius:3px;box-shadow:2px 2px 2px #ccc;margin-left:auto;margin-right:auto}.linkinfo .downvotes .number,.linkinfo .upvotes .number,.linkinfo .score .number{font-size:20px!important;display:block;font-weight:normal!important}.linkinfo .score .word{display:none}.linkinfo .score{font-size:11px;color:#aaaaaa;display:block;min-width:59px;margin-left:25px!important}.linkinfo .downvotes .word,.linkinfo .upvotes .word{font-size:11px;color:#aaaaaa}.linkinfo .upvotes,.linkinfo .downvotes,.linkinfo .score{float:left;padding:5px 10px 5px 0;margin:8px 10px 10px 0;text-align:center}.linkinfo .score,.linkinfo .upvotes{border-right:1px solid #e8e7e7}.linkinfo .score .number{color:#363636}.linkinfo .upvotes .number{color:orangered}.linkinfo .downvotes .number{color:rgb(148,148,255)}.linkinfo .shortlink{clear:both!important;font-size:10px;margin-top:10px;color:#aaa}.linkinfo .shortlink input{background:#fff;border:2px solid #f2f2f2;padding-left:8px;font-size:10px;color:#000;width:60%;margin-left:auto;margin-right:auto}
- 
-
-/* Removes Create Your Own Subreddit link */
- 
-.sidebox.create {display:none}
- 
-
-
-
-/* Submit Icons */
-
-.submit .morelink,.morelink:hover {
-font-weight:400;
-letter-spacing:0;
-background:#0f1d42;
-border-color: #DDD;
-border-radius:0px;box-shadow:1px 1px 1px 1px #ccc;margin-left:2px;margin-right:2px;
-height:30px;
-line-height:30px;
-overflow:hidden;
+.linkinfo{
+    background:-o-linear-gradient(top,#f8f8f8,#ffffff);
+    color:#363636;
+    text-align:center;
+    font-size:11px;
+    padding:0px 0px 0px 0px;
+    border:1px solid #f1f1f1;
+    width:270px;
+    border-radius:3px;
+    box-shadow:2px 2px 2px #ccc;
+    margin-left:auto;
+    margin-right:auto
 }
 
-.submit .morelink a,.morelink a:hover {
-color:#FFF;
-font-family:Verdana,Arial,sans-serif;
-font-size:16px;
+.linkinfo .downvotes .number,
+.linkinfo .upvotes .number,
+.linkinfo .score .number{
+    font-size:20px!important;
+    display:block;
+    font-weight:normal!important
+}
+
+.linkinfo .score .word{
+    display:none
+}
+
+.linkinfo .score{
+    font-size:11px;
+    color:#aaaaaa;
+    display:block;
+    min-width:59px;
+    margin-left:25px!important
+}
+
+.linkinfo .downvotes .word,
+.linkinfo .upvotes .word{
+    font-size:11px;
+    color:#aaaaaa
+}
+
+.linkinfo .upvotes,
+.linkinfo .downvotes,
+.linkinfo .score{
+    float:left;
+    padding:5px 10px 5px 0;
+    margin:8px 10px 10px 0;
+    text-align:center
+}
+
+.linkinfo .score,
+.linkinfo .upvotes{
+    border-right:1px solid #e8e7e7
+}
+
+.linkinfo .score .number{
+    color:#363636
+}
+
+.linkinfo .upvotes .number{
+    color:orangered
+}
+
+.linkinfo .downvotes .number{
+    color:rgb(148,148,255)
+}
+
+.linkinfo .shortlink{
+    clear:both!important;
+    font-size:10px;
+    margin-top:10px;
+    color:#aaa
+}
+
+.linkinfo .shortlink input{
+    background:#fff;
+    border:2px solid #f2f2f2;
+    padding-left:8px;
+    font-size:10px;
+    color:#000;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto
+}
+ 
+/* Removes Create Your Own Subreddit link */
+ 
+.sidebox.create {
+    display:none
+}
+ 
+/* Submit Icons */
+
+.submit .morelink,
+.morelink:hover {
+    font-weight:400;
+    letter-spacing:0;
+    background:#0f1d42;
+    border-color: #DDD;
+    border-radius:0px;
+    box-shadow:1px 1px 1px 1px #ccc;
+    margin-left:2px;
+    margin-right:2px;
+    height:30px;
+    line-height:30px;
+    overflow:hidden;
+}
+
+.submit .morelink a,
+.morelink a:hover {
+    color:#FFF;
+    font-family:Verdana,Arial,sans-serif;
+    font-size:16px;
 }
 
 .submit .morelink:hover a { 
-color: #89DE25;
+    color: #89DE25;
 }
 
 /* Subscribe/Unsubscribe RES Sidebar Buttons */
 
 .fancy-toggle-button .remove {
-background-color:#0f1d42!important;
-border-radius:2px;
-color:white;
-border:1px solid #E4E4E4;
-background-image:none;
-font-weight:400;
-padding:3px;
+    background-color:#0f1d42!important;
+    border-radius:2px;
+    color:white;
+    border:1px solid #E4E4E4;
+    background-image:none;
+    font-weight:400;
+    padding:3px;
 }
 
 .fancy-toggle-button .remove:hover {
-color:#89DE25;
+    color:#89DE25;
 }
 
 
 .fancy-toggle-button .remove:hover:after {
-color:#89DE25;
+    color:#89DE25;
 }
 
 .fancy-toggle-button .add {
-background-color:#0f1d42;
-border-radius:0;
-color:#FFF;
-font-weight:400;
-font-size: 12px;
-background-image:none;
-border:1px solid #e4e4e4;
-padding:3px;
+    background-color:#0f1d42;
+    border-radius:0;
+    color:#FFF;
+    font-weight:400;
+    font-size: 12px;
+    background-image:none;
+    border:1px solid #e4e4e4;
+    padding:3px;
 }
 
 .fancy-toggle-button .add:hover {
-color:#89DE25;
+    color:#89DE25;
 }
-
 
 .RESshortcutside.remove {
-background-color:#0f1d42!important;
-color:white!important;
-background-image:none!important;
-font-weight:400!important;
-border:1px solid #E4E4E4!important;
-padding:3px!important;
+    background-color:#0f1d42!important;
+    color:white!important;
+    background-image:none!important;
+    font-weight:400!important;
+    border:1px solid #E4E4E4!important;
+    padding:3px!important;
 }
-
-
 
 .RESshortcutside {
-margin-right:5px!important;
-margin-top:2px!important;
-text-align:center!important;
-width:68px!important;
-font-size:10px!important;
-color:#0f1d42!important;
-border-radius:0!important;
-background-color:#FFF!important;
-font-weight:400!important;
-background-image:none!important;
-border:1px solid #e4e4e4!important;
-padding:3px!important;
+    margin-right:5px!important;
+    margin-top:2px!important;
+    text-align:center!important;
+    width:68px!important;
+    font-size:10px!important;
+    color:#0f1d42!important;
+    border-radius:0!important;
+    background-color:#FFF!important;
+    font-weight:400!important;
+    background-image:none!important;
+    border:1px solid #e4e4e4!important;
+    padding:3px!important;
 }
 
-
 .RESDashboardToggle.remove {
-background-color:#0f1d42!important;
-border-radius:1px!important;
-color:white!important;
-font-weight:400!important;
-background-image:none!important;
-border:1px solid #e4e4e4;
-padding:3px!important;
+    background-color:#0f1d42!important;
+    border-radius:1px!important;
+    color:white!important;
+    font-weight:400!important;
+    background-image:none!important;
+    border:1px solid #e4e4e4;
+    padding:3px!important;
 }
 
 .RESDashboardToggle {
-text-align:center!important;
-width:68px!important;
-font-size:10px!important;
-color:#0f1d42!important;
-border-radius:0!important;
-background-color:#FFF!important;
-font-weight:400!important;
-background-image:none!important;
-border:1px solid #e4e4e4!important;
-padding:3px!important;
+    text-align:center!important;
+    width:68px!important;
+    font-size:10px!important;
+    color:#0f1d42!important;
+    border-radius:0!important;
+    background-color:#FFF!important;
+    font-weight:400!important;
+    background-image:none!important;
+    border:1px solid #e4e4e4!important;
+    padding:3px!important;
 }
 
 /*-----Searchbar Settings--- */
@@ -414,25 +491,40 @@ body div.side .spacer #search input[type="text"] {
     color: black;
 }
 
-.side form#search input[name="q"]{border: 1px solid #e3e3e3; height: 10px;
-	font-size: 12px;color:#b5b5b5;padding:10px;width:260px}
-
+.side form#search input[name="q"]{
+    border: 1px solid #e3e3e3; 
+    height: 10px;
+    font-size: 12px;
+    color:#b5b5b5;
+    padding:10px;
+    width:260px
+}
 
 /* ===== Replace "readers"  ===== */
-.subscribers .word, .users-online .word{display:none;}
-.subscribers .number:after {content: " Supporters"}
-.users-online .number:after {content: " Saving the Crew!"
+.subscribers .word, 
+.users-online .word{
+    display:none;
+}
+.subscribers .number:after {
+    content: " Supporters"
+}
+
+.users-online .number:after {
+    content: "Saving the Crew!"
 }
 
 /* Remove gap under flair selection */
-.side .titlebox .md p:first-of-type { margin: 0; height: 0; } 
+.side .titlebox .md p:first-of-type { 
+    margin: 0; 
+    height: 0; 
+} 
 
 /*-----Body Settings--- */
 
 .sitetable .thumbnail {
-margin: 2px 2px 2px 5px;
-max-height: 60px;
-width: auto;
+    margin: 2px 2px 2px 5px;
+    max-height: 60px;
+    width: auto;
 }
 
 .sitetable .thumbnail.self {
@@ -440,9 +532,9 @@ width: auto;
 }
 
 .link .usertext .md {
-padding: 5px 10px;
-border: 0 none;
-background-color: transparent;
+    padding: 5px 10px;
+    border: 0 none;
+    background-color: transparent;
 }
 
 body div.content {
@@ -457,45 +549,54 @@ body div.content {
     z-index:102;
 }
 
-
 body.comments-page.res div.content > .sitetable {
     padding-right: 10px;
 }
+
 div.content .link .rank {
     display: none;
 }
+
 .thing .title { 
     color: #0e56b0;
-color: #0073c0;
-color: #0a519a;
-    }
+    color: #0073c0;
+    color: #0a519a;
+}
+
 .thing .title:visited { 
     color:#623788
-    }
+}
+
 .thing .title.click { 
     color:#623788
-    } 
+} 
+
 .thing .title.loggedin {
-     color: #0e56b0;
-color: #0073c0;
-color: #0a519a;
-     }
+    color: #0e56b0;
+    color: #0073c0;
+    color: #0a519a;
+}
+
 .thing .title.loggedin:visited { 
     color:#623788
-    }
+}
+
 .thing .title.loggedin.click { 
     color:#623788
-    } 
+} 
+
 .thing .title.loggedin.click:visited { 
     color:#623788
-    }
+}
+
 #siteTable div.thing ul .first .comments {
     visibility: visible;
-    }
+}
+
 #siteTable div.thing ul .first .empty {
     visibility: visible;
     color: #888
-    }
+}
 
 /*-----Sidebar Settings--- */
 
@@ -513,24 +614,22 @@ body div.side {
     z-index:102;
 }
 
-
-
-
 body div.side .morelink {
     border-radius: 2px
 }
+
 body div.side .nub {
     display:none;
 }
 
 .titlebox .bottom {
     display: none
-    }
+}
 
 /* Only show crests in comments */
 #siteTable.sitetable.linklisting .tagline .flair {
     display: none
-    }
+}
 
 /*-----Footer Settings--- */
 
@@ -542,29 +641,42 @@ body div.side .nub {
 
 /*-----Redditname Settings--- */
 
-.side .redditname a { font-size: 0; }
-.side .redditname a:after { font-size: 19px; color: #303030; content: '/r/MLS' }
+.side .redditname a { 
+    font-size: 0; 
+}
+.side .redditname a:after { 
+    font-size: 19px; 
+    color: #303030; 
+    content: '/r/MLS' 
+}
+
 div.side .linkinfo {
-position:relative;
-top:6px;
+    position:relative;
+    top:6px;
 }
+
 div.side .login-form-side {
-position:relative;
-top:6px;
+    position:relative;
+    top:6px;
 }
+
 body div.side .md hr {
     border: none;
     border-bottom: 1px solid #bebebe;
     box-shadow: 0px 1px 0px #fcfcfc;
     margin-bottom:4px;
 }
-body div.titlebox form.toggle, body div.titlebox .leavemoderator {
+
+body div.titlebox form.toggle, 
+body div.titlebox .leavemoderator {
     background-color: transparent;
 }
+
 body.res-nightmode div.side {
     background-color: transparent!important;
     border: none;
 }
+
 body div.thing.link {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -573,16 +685,20 @@ body div.thing.link {
     border-bottom: 1px solid rgb(223, 223, 223);
     box-shadow: 0px 1px #fff;
 }
+
 .link.last-clicked {
-border: none;
+    border: none;
 }
+
 body.comments-page.res div.content .commentarea {
     margin-right: 10px;
 }
+
 .commentarea .comment {
     border: 0px #f8f8f8 !important; 
     margin: 0px !important; 
-    padding: 0px !important;}
+    padding: 0px !important;
+}
 	
 .commentarea .comment .child {
     margin: 6px 0px 0px 35px !important;
@@ -598,6 +714,7 @@ body.comments-page.res div.content .commentarea {
     background-color: transparent !important;
     padding: 6px 0 6px 50px !important; 
 }
+
 .commentarea .entry > .noncollapsed {
     background-color: rgb(245, 245, 245) !important;
     border: 1px solid #d7d7d7!important;
@@ -607,27 +724,33 @@ body.comments-page.res div.content .commentarea {
 
 .commentarea .morechildren > .entry > .noncollapsed {
     background-color: transparent !important;
-	padding: 0px !important; }
+    padding: 0px !important; 
+}
 
 .commentarea .morerecursion > .entry > .noncollapsed {
     background-color: transparent !important;
-	padding: 0px !important; }
-	
-	
+    padding: 0px !important; 
+}
+		
 .sitetable.nestedlisting {
     background-color: #fafafa;
     padding: 0px!important;
     margin: 0;
 }
-.commentarea .nestedlisting .comment { margin-left: 0 !important; }
+.commentarea .nestedlisting .comment { 
+    margin-left: 0 !important; 
+}
+
 p.tagline, p.tagline a {
     margin: 3px 0px;
 }
+
 .tagline {
     font-size: 10px;
     font-family: Verdana;
     padding-left: 1px;
 }
+
 .commentarea .comment .midcol {
     width: 15px !important;
     height: 62px;
@@ -637,39 +760,53 @@ p.tagline, p.tagline a {
     background-position: 34px 10px;
     background-repeat: no-repeat;
     margin-right: 5px;
-    }
-.res .comment, .res .comment .comment, .res .comment .comment .comment, .res .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+}
+
+.res .comment, 
+.res .comment .comment, 
+.res .comment .comment .comment, 
+.res .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, 
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: transparent!important
 }
+
 .comment.spam > .child, .message.spam > .child {
     background-color: transparent;
 }
+
 body.res-nightmode .commentarea .comment {
-background-color: #222!important;
+    background-color: #222!important;
 }
+
 body.res-nightmode .commentarea .entry > .noncollapsed {
     background-color: #333!important;
     border: 1px solid #666 !important;
 }
 
-
-.res .content .RES-keyNav-activeElement
-{
+.res .content .RES-keyNav-activeElement {
     background-color: transparent!important;
     outline: 1px dashed #b8b8b8!important;
 }
-.comments-page.res .content .sitetable .RES-keyNav-activeElement
-{
+
+.comments-page.res .content .sitetable .RES-keyNav-activeElement {
     background-color: transparent!important;
     background-image: none!important;
     outline: none!important;
 }
+
 body #parentComment {
     background-color: rgb(245, 245, 245) !important;
     border: 1px solid #d7d7d7!important;
     box-shadow: 0 0 6px #ccc!important;
     z-index:200;
 }
+
 body.res div#NREFloat {
     z-index:1000;
 }
@@ -680,29 +817,62 @@ body.res div#NREFloat {
 
 /* ===== Link Flair Colors ===== */
 
-.linkflair-usocmatch .entry .title { color: orange; font-weight: bold; }
-.linkflair-usocmatch .entry .title:visited { color: orange; font-weight: bold; }
-.linkflair-cclmatch .entry .title { color: purple; font-weight: bold; }
-.linkflair-cclmatch .entry .title:visited { color: purple; font-weight: bold; }
-.linkflair-friendlymatch .entry .title { color: #A4A4A4; font-weight: bold; }
-.linkflair-friendlymatch .entry .title:visited { color: #A4A4A4; font-weight: bold; }
-.linkflair-ama .entry .title { color: blue; font-weight: bold; }
-.linkflair-ama .entry .title:visited { color: blue; font-weight: bold; }
-.linkflair-meta .entry .title { color: #0A8C28; font-weight: bold; }
-.linkflair-meta .entry .title:visited { color: #0A8C28; font-weight: bold; }
-.linkflair-trashtalk .entry .title { color: #B00000; font-weight: bold; }
-.linkflair-trashtalk .entry .title:visited { color: #B00000; font-weight: bold; }
-.linkflair-mlsmatch .entry .title { color: #B00000; font-weight: bold; }
-.linkflair-mlsmatch .entry .title:visited { color: #B00000; font-weight: bold; }
-.linkflair-discussion .entry .title { color: #B00000; font-weight: bold; }
-.linkflair-discussion .entry .title:visited { color: #B00000; font-weight: bold; }
-.linkflair-official .entry .title { color: black; font-weight: bold; }
-.linkflair-official .entry .title:visited { color: black; font-weight: bold; }
-.linkflair-shit .entry .title { color: brown; font-weight: bold; }
-.linkflair-shit .entry .title:visited { color: brown; font-weight: bold; }
-.linkflair-highlight .entry .title { color: orange; font-weight: bold; }
-.linkflair-highlight .entry .title:visited { color: orange; font-weight: bold; }
+.linkflair-usocmatch .entry .title,
+.linkflair-usocmatch .entry .title:visited { 
+    color: orange; 
+    font-weight: bold; 
+}
 
+.linkflair-cclmatch .entry .title,
+.linkflair-cclmatch .entry .title:visited { 
+    color: purple; 
+    font-weight: bold; 
+}
+
+.linkflair-friendlymatch .entry .title,
+.linkflair-friendlymatch .entry .title:visited { 
+    color: #A4A4A4; 
+    font-weight: bold; 
+}
+
+.linkflair-ama .entry .title,
+.linkflair-ama .entry .title:visited { 
+    color: blue; 
+    font-weight: bold; 
+}
+
+.linkflair-meta .entry .title,
+.linkflair-meta .entry .title:visited { 
+    color: #0A8C28; 
+    font-weight: bold; 
+}
+
+.linkflair-trashtalk .entry .title,
+.linkflair-mlsmatch .entry .title,
+.linkflair-discussion .entry .title,
+.linkflair-trashtalk .entry .title:visited,
+.linkflair-mlsmatch .entry .title:visited,
+.linkflair-discussion .entry .title:visited { 
+    color: #B00000; 
+    font-weight: bold; 
+}
+
+.linkflair-official .entry .title,
+.linkflair-official .entry .title:visited { 
+    color: black; 
+    font-weight: bold; 
+}
+.linkflair-shit .entry .title,
+.linkflair-shit .entry .title:visited { 
+    color: brown; 
+    font-weight: bold; 
+}
+
+.linkflair-highlight .entry .title,
+.linkflair-highlight .entry .title:visited { 
+    color: orange; 
+    font-weight: bold; 
+}
 /* ===== Thread templates ===== */
 #siteTable a.title[href*="/match_thread"]:before {
     background-image: url(%%match-events%%);
@@ -714,24 +884,29 @@ body.res div#NREFloat {
     margin-right: 2px;
     vertical-align: middle;
     width: 16px;
-    }
+}
+
 #siteTable a.title[href*="match_thread"] {
     color: #B00000;
     font-weight: bold
-    }
+}
+
 #siteTable a.title[href*="1gz5l2"] {
     color: #B00000;
     font-weight: bold
-    }
+}
+
 #siteTable a.title[href*="1i8yxm"] {
     color: #B00000;
     font-weight: bold
-    }
+}
+
 #siteTable a.title[href*="trash_talk_thread"] {
     color: #B00000;
     font-weight: bold;
     text-transform: uppercase
-    }
+}
+
 #siteTable a.title[href*="us_open_cup_thread"]:before {
     background-image: url(%%flair%%);
     background-position: -105px -700px;
@@ -742,16 +917,25 @@ body.res div#NREFloat {
     margin-right: 2px;
     vertical-align: middle;
     width: 20px;
-    } 
+} 
+
 #siteTable a.title[href*="us_open_cup_thread"] {
     color: #E48E0D;
     font-weight: bold;
-    }
-#siteTable a.title[href*="concacaf_thread"], a.title[href*="concacaf_champions_league_thread"], a.title[href*="ccl_thread"], a.title[href*="ccl_match_thread"] {
+}
+
+#siteTable a.title[href*="concacaf_thread"], 
+a.title[href*="concacaf_champions_league_thread"], 
+a.title[href*="ccl_thread"], 
+a.title[href*="ccl_match_thread"] {
     color: #0A8C28;
     font-weight: bold
-    }
-#siteTable a.title[href*="concacaf_thread"]:before, a.title[href*="concacaf_champions_league_thread"]:before, a.title[href*="ccl_thread"]:before, a.title[href*="ccl_match_thread"]:before {
+}
+
+#siteTable a.title[href*="concacaf_thread"]:before, 
+a.title[href*="concacaf_champions_league_thread"]:before, 
+a.title[href*="ccl_thread"]:before, 
+a.title[href*="ccl_match_thread"]:before {
     background-image: url(%%flair%%);
     background-position: -84px -306px;
     background-repeat: no-repeat;
@@ -761,8 +945,11 @@ body.res div#NREFloat {
     margin-right: 2px;
     vertical-align: middle;
     width: 20px;
-    }
-#siteTable a.title[href*="world_cup_qualifier_thread"]:before, #siteTable a.title[href*="fifa_thread"]:before, #siteTable a.title[href*="world_cup_qualifying_thread"]:before {
+}
+
+#siteTable a.title[href*="world_cup_qualifier_thread"]:before,
+#siteTable a.title[href*="fifa_thread"]:before, 
+#siteTable a.title[href*="world_cup_qualifying_thread"]:before {
     background-image: url(%%flair%%);
     background-position: -84px -346px;
     background-repeat: no-repeat;
@@ -772,18 +959,45 @@ body.res div#NREFloat {
     margin-right: 2px;
     vertical-align: middle;
     width: 20px;
-    }
-#siteTable a.title[href*="world_cup_qualifier_thread"], #siteTable a.title[href*="fifa_thread"], #siteTable a.title[href*="world_cup_qualifying_thread"], #siteTable a.title[href*="qualifier_thread"] {
+}
+
+#siteTable a.title[href*="world_cup_qualifier_thread"], 
+#siteTable a.title[href*="fifa_thread"], 
+#siteTable a.title[href*="world_cup_qualifying_thread"], 
+#siteTable a.title[href*="qualifier_thread"] {
     color: #013ADF;
     font-weight: bold;
-    }
+}
 
 /* ===== Header Crests ===== */
 /* ===== Link crests to subreddits ===== */
 .usertext {
     position: static
-    }
-.titlebox .md a[href="/r/chicagofire"], .titlebox .md a[href="/r/Rapids"], .titlebox .md a[href="/r/TheMassive"], .titlebox .md a[href="/r/DCUnited"], .titlebox .md a[href="/r/FCDallas"], .titlebox .md a[href="/r/dynamo"], .titlebox .md a[href="/r/LAGalaxy"], .titlebox .md a[href="/r/montrealimpact"], .titlebox .md a[href="/r/NewEnglandRevolution"], .titlebox .md a[href="/r/rbny"], .titlebox .md a[href="/r/PhillyUnion"], .titlebox .md a[href="/r/timbers"], .titlebox .md a[href="/r/realsaltlake"], .titlebox .md a[href="/r/SJEarthquakes"], .titlebox .md a[href="/r/SoundersFC"], .titlebox .md a[href="/r/sportingkc"], .titlebox .md a[href="/r/TFC"], .titlebox .md a[href="/r/whitecapsfc"], .titlebox .md a[href="/r/OCLions"], .titlebox .md a[href="/r/NYCFC"], .titlebox .md a[href="/r/AtlantaUnited"], .titlebox .md a[href="/r/minnesotaunited"], .titlebox .md a[href="/r/LAFC"] {
+}
+
+.titlebox .md a[href="/r/chicagofire"], 
+.titlebox .md a[href="/r/Rapids"], 
+.titlebox .md a[href="/r/TheMassive"], 
+.titlebox .md a[href="/r/DCUnited"], 
+.titlebox .md a[href="/r/FCDallas"], 
+.titlebox .md a[href="/r/dynamo"], 
+.titlebox .md a[href="/r/LAGalaxy"], 
+.titlebox .md a[href="/r/montrealimpact"], 
+.titlebox .md a[href="/r/NewEnglandRevolution"], 
+.titlebox .md a[href="/r/rbny"], 
+.titlebox .md a[href="/r/PhillyUnion"], 
+.titlebox .md a[href="/r/timbers"], 
+.titlebox .md a[href="/r/realsaltlake"], 
+.titlebox .md a[href="/r/SJEarthquakes"], 
+.titlebox .md a[href="/r/SoundersFC"], 
+.titlebox .md a[href="/r/sportingkc"], 
+.titlebox .md a[href="/r/TFC"], 
+.titlebox .md a[href="/r/whitecapsfc"], 
+.titlebox .md a[href="/r/OCLions"], 
+.titlebox .md a[href="/r/NYCFC"], 
+.titlebox .md a[href="/r/AtlantaUnited"], 
+.titlebox .md a[href="/r/minnesotaunited"], 
+.titlebox .md a[href="/r/LAFC"] {
     position: absolute;
     z-index: 100;
     top: 115px;
@@ -797,100 +1011,146 @@ body.res div#NREFloat {
     vertical-align: middle;
     margin-right: 3px;
     border: none
-    }
+}
+
 .titlebox .md a[href="/r/AtlantaUnited"] {
     background-position: -800px 0;
     right: 657px
-    }
+}
+
 .titlebox .md a[href="/r/chicagofire"] {
     background-position: 0px 0;
     right: 627px
-    }
+}
+
 .titlebox .md a[href="/r/Rapids"] {
     background-position: -80px 0;
     right: 597px
-    }
+}
+
 .titlebox .md a[href="/r/TheMassive"] {
     background-position: -119px 0;
     right: 570px
-    }
+}
+
 .titlebox .md a[href="/r/DCUnited"] {
     background-position: -158px 0;
     right: 545px
-    }
+}
+
 .titlebox .md a[href="/r/FCDallas"] {
     background-position: -200px 0;
     right: 513px
-    }
+}
+
 .titlebox .md a[href="/r/dynamo"] {
     background-position: -240px 0;
     right: 483px
-    }
+}
+
 .titlebox .md a[href="/r/LAFC"] {
     background-position: -840px 0;
     right: 455px
-    }
+}
+
 .titlebox .md a[href="/r/LAGalaxy"] {
     background-position: -280px 0;
     right: 425px
-    }
+}
+
 .titlebox .md a[href="/r/minnesotaunited"] {
     background-position: -880px 0;
     right: 395px
-    }
+}
+
 .titlebox .md a[href="/r/montrealimpact"] {
     background-position: -320px 0;
     right: 365px
-    }
+}
+
 .titlebox .md a[href="/r/NewEnglandRevolution"] {
     background-position: -360px 0;
     right: 333px
-    }
+}
+
 .titlebox .md a[href="/r/NYCFC"] {
     background-position: -760px 0;
     right: 305px
-    }
+}
+
 .titlebox .md a[href="/r/rbny"] {
     background-position: -400px 0;
     right: 275px
-    }
+}
+
 .titlebox .md a[href="/r/OCLions"] {
     background-position: -39px 0;
     right: 245px
-    }
+}
+
 .titlebox .md a[href="/r/PhillyUnion"] {
     background-position: -440px 0;
     right: 215px
-    }
+}
+
 .titlebox .md a[href="/r/timbers"] {
     background-position: -480px 0;
     right: 185px
-    }
+}
+
 .titlebox .md a[href="/r/realsaltlake"] {
     background-position: -520px 0;
     right: 153px
-    }
+}
+
 .titlebox .md a[href="/r/SJEarthquakes"] {
     background-position: -560px 0;
     right: 125px
-    }
+}
+
 .titlebox .md a[href="/r/SoundersFC"] {
     background-position: -600px 0;
     right: 92px
-    }
+}
+
 .titlebox .md a[href="/r/sportingkc"] {
     background-position: -640px 0;
     right: 64px
-    }
+}
+
 .titlebox .md a[href="/r/TFC"] {
     background-position: -680px 0;
     right: 35px
-    }
+}
+
 .titlebox .md a[href="/r/whitecapsfc"] {
     background-position: -720px 0;
     right: 3px
-    }
-.titlebox .md a[href="/r/chicagofire"]:hover:after, .titlebox .md a[href="/r/Rapids"]:hover:after, .titlebox .md a[href="/r/TheMassive"]:hover:after, .titlebox .md a[href="/r/DCUnited"]:hover:after, .titlebox .md a[href="/r/FCDallas"]:hover:after, .titlebox .md a[href="/r/dynamo"]:hover:after, .titlebox .md a[href="/r/LAGalaxy"]:hover:after, .titlebox .md a[href="/r/montrealimpact"]:hover:after, .titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after, .titlebox .md a[href="/r/rbny"]:hover:after, .titlebox .md a[href="/r/PhillyUnion"]:hover:after, .titlebox .md a[href="/r/timbers"]:hover:after, .titlebox .md a[href="/r/realsaltlake"]:hover:after, .titlebox .md a[href="/r/SJEarthquakes"]:hover:after, .titlebox .md a[href="/r/SoundersFC"]:hover:after, .titlebox .md a[href="/r/sportingkc"]:hover:after, .titlebox .md a[href="/r/TFC"]:hover:after, .titlebox .md a[href="/r/whitecapsfc"]:hover:after, .titlebox .md a[href="/r/OCLions"]:hover:after, .titlebox .md a[href="/r/NYCFC"]:hover:after, .titlebox .md a[href="/r/AtlantaUnited"]:hover:after, .titlebox .md a[href="/r/minnesotaunited"]:hover:after, .titlebox .md a[href="/r/LAFC"]:hover:after {
+}
+
+.titlebox .md a[href="/r/chicagofire"]:hover:after, 
+.titlebox .md a[href="/r/Rapids"]:hover:after, 
+.titlebox .md a[href="/r/TheMassive"]:hover:after, 
+.titlebox .md a[href="/r/DCUnited"]:hover:after, 
+.titlebox .md a[href="/r/FCDallas"]:hover:after, 
+.titlebox .md a[href="/r/dynamo"]:hover:after, 
+.titlebox .md a[href="/r/LAGalaxy"]:hover:after, 
+.titlebox .md a[href="/r/montrealimpact"]:hover:after, 
+.titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after, 
+.titlebox .md a[href="/r/rbny"]:hover:after, 
+.titlebox .md a[href="/r/PhillyUnion"]:hover:after, 
+.titlebox .md a[href="/r/timbers"]:hover:after, 
+.titlebox .md a[href="/r/realsaltlake"]:hover:after, 
+.titlebox .md a[href="/r/SJEarthquakes"]:hover:after, 
+.titlebox .md a[href="/r/SoundersFC"]:hover:after, 
+.titlebox .md a[href="/r/sportingkc"]:hover:after, 
+.titlebox .md a[href="/r/TFC"]:hover:after, 
+.titlebox .md a[href="/r/whitecapsfc"]:hover:after, 
+.titlebox .md a[href="/r/OCLions"]:hover:after, 
+.titlebox .md a[href="/r/NYCFC"]:hover:after, 
+.titlebox .md a[href="/r/AtlantaUnited"]:hover:after, 
+.titlebox .md a[href="/r/minnesotaunited"]:hover:after, 
+.titlebox .md a[href="/r/LAFC"]:hover:after {
     content: attr(title);
     position: absolute;
     top: -30px;
@@ -904,7 +1164,8 @@ body.res div#NREFloat {
     box-shadow: 0 0 5px #000;
     -webkit-box-shadow: 0 0 5px #000;
     -moz-box-shadow: 0 0 5px #000
-    }
+}
+
 .titlebox .md a[href="/r/chicagofire"]:hover:after {
     background: -webkit-linear-gradient(#CD003F,#74001E);
     background: -moz-linear-gradient(#CD003F,#74001E);
@@ -912,7 +1173,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/OCLions"]:hover:after {
     background: -webkit-linear-gradient(#551A8B,#220A37);
     background: -moz-linear-gradient(#551A8B,#220A37);
@@ -920,7 +1182,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/Rapids"]:hover:after {
     background: -webkit-linear-gradient(#930026,#77001A);
     background: -moz-linear-gradient(#930026,#77001A);
@@ -928,7 +1191,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/TheMassive"]:hover:after {
     background: -webkit-linear-gradient(#E9CF46,#9F8E39);
     background: -moz-linear-gradient(#E9CF46,#9F8E39);
@@ -936,7 +1200,8 @@ body.res div#NREFloat {
     text-shadow: 0 1px #E9CF46;
     -webkit-text-shadow: 0 1px #E9CF46;
     -moz-text-shadow: 0 1px #E9CF46
-    }
+}
+
 .titlebox .md a[href="/r/DCUnited"]:hover:after {
     background: -webkit-linear-gradient(#555,#111);
     background: -moz-linear-gradient(#555,#111);
@@ -944,7 +1209,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/FCDallas"]:hover:after {
     background: -webkit-linear-gradient(#CC0035,#900022);
     background: -moz-linear-gradient(#CC0035,#900022);
@@ -952,7 +1218,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000;
-    }
+}
+
 .titlebox .md a[href="/r/dynamo"]:hover:after {
     background: -webkit-linear-gradient(#FA7122,#C9561F);
     background: -moz-linear-gradient(#FA7122,#C9561F);
@@ -960,7 +1227,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/LAFC"]:hover:after {
     background: -webkit-linear-gradient(#555,#111);
     background: -moz-linear-gradient(#555,#111);
@@ -968,7 +1236,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/LAGalaxy"]:hover:after {
     background: -webkit-linear-gradient(#006BA8,#00517C);
     background: -moz-linear-gradient(#006BA8,#00517C);
@@ -976,7 +1245,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/montrealimpact"]:hover:after {
    background: -webkit-linear-gradient(#0B53A0,#083973);
    background: -moz-linear-gradient(#0B53A0,#083973);
@@ -985,6 +1255,7 @@ body.res div#NREFloat {
    -webkit-text-shadow:0 -1px #000;
    -moz-text-shadow:0 -1px #000;
 }
+
 .titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after {
     background: -webkit-linear-gradient(#00295A,#001B3C);
     background: -moz-linear-gradient(#00295A,#001B3C);
@@ -992,7 +1263,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/rbny"]:hover:after {
     background: -webkit-linear-gradient(#FFF,#CCC);
     background: -moz-linear-gradient(#FFF,#CCC);
@@ -1000,7 +1272,8 @@ body.res div#NREFloat {
     text-shadow: 0 1px #FFF;
     -webkit-text-shadow: 0 1px #FFF;
     -moz-text-shadow: 0 1px #FFF
-    }
+}
+
 .titlebox .md a[href="/r/PhillyUnion"]:hover:after {
     background: -webkit-linear-gradient(#002F5B,#001F3C);
     background: -moz-linear-gradient(#002F5B,#001F3C);
@@ -1008,7 +1281,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/timbers"]:hover:after {
     background: -webkit-linear-gradient(#003C14,#00270E);
     background: -moz-linear-gradient(#003C14,#00270E);
@@ -1016,7 +1290,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/realsaltlake"]:hover:after {
     background: -webkit-linear-gradient(#C00038,#6D001C);
     background: -moz-linear-gradient(#C00038,#6D001C);
@@ -1024,7 +1299,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/SJEarthquakes"]:hover:after {
     background: -webkit-linear-gradient(#0073B0,#00405F);
     background: -moz-linear-gradient(#0073B0,#00405F);
@@ -1032,7 +1308,8 @@ body.res div#NREFloat {
     text-shadow: 0 1px #000;
     -webkit-text-shadow: 0 1px #000;
     -moz-text-shadow: 0 1px #000
-    }
+}
+
 .titlebox .md a[href="/r/sportingkc"]:hover:after {
     background: -webkit-linear-gradient(#164C7D,#0C3C68);
     background: -moz-linear-gradient(#164C7D,#0C3C68);
@@ -1040,7 +1317,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/SoundersFC"]:hover:after {
     background: -webkit-linear-gradient(#62AF48,#336025);
     background: -moz-linear-gradient(#62AF48,#336025);
@@ -1048,7 +1326,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/TFC"]:hover:after {
     background: -webkit-linear-gradient(#E6475C,#DB0022);
     background: -moz-linear-gradient(#E6475C,#DB0022);
@@ -1056,7 +1335,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/whitecapsfc"]:hover:after {
     background: -webkit-linear-gradient(#FFF,#CCC);
     background: -moz-linear-gradient(#FFF,#CCC);
@@ -1064,7 +1344,8 @@ body.res div#NREFloat {
     text-shadow: 0 1px #FFF;
     -webkit-text-shadow: 0 1px #FFF;
     -moz-text-shadow: 0 1px #FFF
-    }
+}
+
 .titlebox .md a[href="/r/NYCFC"]:hover:after {
     background: -webkit-linear-gradient(#7EC0EE,#324C5F);
     background: -moz-linear-gradient(#7EC0EE,#324C5F);
@@ -1072,7 +1353,8 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/AtlantaUnited"]:hover:after {
     background: -webkit-linear-gradient(#80000b,#80000b);
     background: -moz-linear-gradient(#6f0009,#6f0009);
@@ -1080,15 +1362,17 @@ body.res div#NREFloat {
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
-    }
+}
+
 .titlebox .md a[href="/r/minnesotaunited"]:hover:after {
- background: -webkit-linear-gradient(#7EC0EE,#324C5F);
+    background: -webkit-linear-gradient(#7EC0EE,#324C5F);
     background: -moz-linear-gradient(#7EC0EE,#324C5F);
     color: #FFF;
     text-shadow: 0 -1px #000;
     -webkit-text-shadow: 0 -1px #000;
     -moz-text-shadow: 0 -1px #000
 }
+
 /* ===== Table formatting ===== */
 .md table {
     border: 2px solid #fff;
@@ -1096,10 +1380,12 @@ body.res div#NREFloat {
     margin: 1px 0 1px 0;
     position: relative;
     left: 1px
-    }
+}
+
 .titlebox .md table {
     width: 99%
-    }
+}
+
 .md table th {
     background: #303030; 
     border-top: none;
@@ -1112,11 +1398,11 @@ body.res div#NREFloat {
     text-align: center;
     text-shadow: 1px 1px 0 #2f2f2f;
     font-size: 10px
-    }
+}
+
 .md table th a {
     color: #363636
 }
-
 
 /* === Formatting === */
 .md table td {
@@ -1124,222 +1410,332 @@ body.res div#NREFloat {
     border: none;
     padding: .3em;
     vertical-align: middle
-    }
+}
+
 .md table td a {
     color: #27262c !important;
     font-weight: normal
-    }
+}
+
 .md table td a:hover {
     color: #fff !important;
     text-decoration: underline
-    }
+}
+
 /* === Alternate row colors === */
 .md tr:nth-of-type(odd) {
     background: #fff;
     color: #363636
-    }
+}
+
 .md tr:nth-of-type(even) {
     background: #e3e3e3;
     color: #363636
-    }
+}
+
 /* === Alternate channel color === */
 .md tr:nth-of-type(odd) td:nth-of-type(7) {
     background: #eee
-    }
+}
+
 .md tr:nth-of-type(even) td:nth-of-type(7) {
     background: #ccc
-    }
+}
+
 /* === Hover color === */
 .md tr:hover {
     background: #a0cdff !important;
     cursor: default
-    }
+}
+
 .md tr:hover td:nth-of-type(7) {
     background: #396 !important;
     cursor: default
-    }
+}
 
 /* ==== Icons for links ===== */
-.md td a[href*="mlssoccer.com"], .md td a[href*="chicago-fire.com"], .md td a[href*="chivasusa.com"], .md td a[href*="coloradorapids.com"], .md td a[href*="columbuscrewsc.com"], .md td a[href*="dcunited.com"], .md td a[href*="fcdallas.com"], .md td a[href*="houstondynamo.com"], .md td a[href*="lagalaxy.com"], .md td a[href*="impactmontreal.com"], .md td a[href*="revolutionsoccer.net"], .md td a[href*="newyorkredbulls.com"], .md td a[href*="philadelphiaunion.com"], .md td a[href*="portlandtimbers.com"], .md td a[href*="rsl.com"], .md td a[href*="sjearthquakes.com"], .md td a[href*="soundersfc.com"], .md td a[href*="sportingkc.com"], .md td a[href*="torontofc.ca"], .md td a[href*="whitecapsfc.com"], .md td a[href*="nycfc.com"], .md td a[href*="orlandocitysc.com"], .md td a[href*="thecup.us"], .md td a[href*="ussoccer.com"], .md td a[href*="canadasoccer.com"], a[href*="category/champions-league/schedule-results"], .md td a[href*="mnufc.com"], .md td a[href*="atlutd.com"] {
+.md td a[href*="mlssoccer.com"], 
+.md td a[href*="chicago-fire.com"], 
+.md td a[href*="chivasusa.com"], 
+.md td a[href*="coloradorapids.com"], 
+.md td a[href*="columbuscrewsc.com"], 
+.md td a[href*="dcunited.com"], 
+.md td a[href*="fcdallas.com"], 
+.md td a[href*="houstondynamo.com"], 
+.md td a[href*="lagalaxy.com"], 
+.md td a[href*="impactmontreal.com"], 
+.md td a[href*="revolutionsoccer.net"], 
+.md td a[href*="newyorkredbulls.com"], 
+.md td a[href*="philadelphiaunion.com"], 
+.md td a[href*="portlandtimbers.com"], 
+.md td a[href*="rsl.com"], 
+.md td a[href*="sjearthquakes.com"], 
+.md td a[href*="soundersfc.com"], 
+.md td a[href*="sportingkc.com"], 
+.md td a[href*="torontofc.ca"], 
+.md td a[href*="whitecapsfc.com"], 
+.md td a[href*="nycfc.com"], 
+.md td a[href*="orlandocitysc.com"], 
+.md td a[href*="thecup.us"], 
+.md td a[href*="ussoccer.com"], 
+.md td a[href*="canadasoccer.com"], 
+a[href*="category/champions-league/schedule-results"], 
+.md td a[href*="mnufc.com"], 
+.md td a[href*="atlutd.com"] {
     background-color: transparent;
     background-image: url(%%link-flair%%);
     background-repeat: no-repeat;
     padding: 5px 0 5px 25px;
     margin-left: 3px;
     display: block
-    }
+}
+
 .md td a[href*="mlssoccer.com/all-star"] {
     background-position: 0 0
-    }
+}
+
 .md td a[href*="atlutd.com"] {
     background-position: 1px -787px
-    }
+}
+
 .md td a[href*="chicago-fire.com"] {
     background-position: 0 -24px
-    }
+}
+
 .md td a[href*="chivasusa.com"] {
     background-position: 0 -50px
-    }
+}
+
 .md td a[href*="coloradorapids.com"] {
     background-position: 0 -76px
-    }
+}
+
 .md td a[href*="columbuscrewsc.com"] {
     background-position: 0 -102px
-    }
+}
+
 .md td a[href*="dcunited.com"] {
     background-position: 0 -128px
-    }
+}
+
 .md td a[href*="fcdallas.com"] {
     background-position: 0 -154px
-    }
+}
+
 .md td a[href*="houstondynamo.com"] {
     background-position: 0 -180px
-    }
+}
+
 .md td a[href*="lagalaxy.com"] {
     background-position: 0 -206px;
-    }
+}
+
 .md td a[href*="mnufc.com"] {
     background-position: 0 -755px
-    }
+}
+
 .md td a[href*="impactmontreal.com"] {
     background-position: 0 -232px
-    }
+}
+
 .md td a[href*="revolutionsoccer.net"] {
     background-position: 0 -258px
-    }
+}
+
 .md td a[href*="nycfc.com"] {
     background-position: 0 -544px
-    }
+}
+
 .md td a[href*="newyorkredbulls.com"] {
     background-position: 0 -284px
-    }
+}
+
 .md td a[href*="orlandocitysc.com"] {
     background-position: 0 -517px
-    }
+}
+
 .md td a[href*="philadelphiaunion.com"] {
     background-position: 0 -310px
-    }
+}
+
 .md td a[href*="portlandtimbers.com"] {
     background-position: 0 -336px
-    }
+}
+
 .md td a[href*="rsl.com"] {
     background-position: 0 -362px
-    }
+}
+
 .md td a[href*="sjearthquakes.com"] {
     background-position: 0 -388px
-    }
+}
+
 .md td a[href*="soundersfc.com"] {
     background-position: 0 -414px
-    }
+}
+
 .md td a[href*="sportingkc.com"] {
     background-position: 0 -440px
-    }
+}
+
 .md td a[href*="torontofc.ca"] {
     background-position: 0 -466px
-    }
+}
+
 .md td a[href*="whitecapsfc.com"] {
     background-position: 0 -492px
-    }
+}
+
 .md td a[href*="thecup.us"] {
     background-position: 0 -573px
-    }
+}
+
 .md td a[href*="ussoccer.com"] {
     background-position: 0 -599px
-    }
+}
+
 .md td a[href*="category/champions-league/schedule-results"] {
     background-position: 0 -653px
-    }
+}
+
 .md td a[href*="canadasoccer.com"] {
     background-position: 0 -722px
-    }
-.noncollapsed .md a[href*="youtube.com"], .noncollapsed .md a[href*="youtu.be"] {
+}
+
+.noncollapsed .md a[href*="youtube.com"],
+.noncollapsed .md a[href*="youtu.be"] {
     background-color: transparent;
     background-image: url(%%link-flair%%);
     background-repeat: no-repeat;
     padding: 5px 0 5px 25px;
     margin-left: 3px;
     background-position: 2px -674px;
-    }
+}
 
 /* ===== Broadcasters ===== */
-.md td a[href*="nbcsports.msnbc.com"], .md td a[href*="www.nbc.com"], .md td a[href*="channel/espn"], .md td a[href*="channel/espn2"], .md td a[href*="channel/espn3"], .md td a[href*="#tsn"], .md td a[href*="#tsn2"], .md td a[href*="live.mlssoccer.com"], .md td a[href*="#galavision"], .md td a[href*="univision.com/deportes/futbol/mls"], .md td a[href*="#telefutura"], .md td a[href*="foxsports.com/foxsoccer"], .md td a[href*="foxsoccerplus.com"], .md td a[href*="sportsnet.ca"], .md td a[href*="youtube.com"], .md td a[href*="youtu.be"], .md td a[href*="/unimas"], .md td a[href*="beinsport.tv"], a[href*="fox.com"], a[href*="msn.foxsports.com/foxsports1"], a[href*="wikipedia.org/wiki/Fox_Sports_2"], a[href*="goltv.tv/en"], a[href*="oneworldsports.com/"], .md td a[href*="live.fb.com"]
-{
+.md td a[href*="nbcsports.msnbc.com"],
+.md td a[href*="www.nbc.com"],
+.md td a[href*="channel/espn"], 
+.md td a[href*="channel/espn2"], 
+.md td a[href*="channel/espn3"], 
+.md td a[href*="#tsn"], 
+.md td a[href*="#tsn2"], 
+.md td a[href*="live.mlssoccer.com"], 
+.md td a[href*="#galavision"], 
+.md td a[href*="univision.com/deportes/futbol/mls"], 
+.md td a[href*="#telefutura"], 
+.md td a[href*="foxsports.com/foxsoccer"], 
+.md td a[href*="foxsoccerplus.com"], 
+.md td a[href*="sportsnet.ca"], 
+.md td a[href*="youtube.com"], 
+.md td a[href*="youtu.be"], 
+.md td a[href*="/unimas"], 
+.md td a[href*="beinsport.tv"], 
+a[href*="fox.com"], 
+a[href*="msn.foxsports.com/foxsports1"], 
+a[href*="wikipedia.org/wiki/Fox_Sports_2"], 
+a[href*="goltv.tv/en"], 
+a[href*="oneworldsports.com/"], 
+.md td a[href*="live.fb.com"]c{
     background-color: transparent;
     background-image: url(%%broadcasters%%);
     background-repeat: no-repeat;
     padding: 15px 0px 7px 65px;
     margin-left: 3px;
     display: block
-    }
+}
+
 .md td a[href*="nbcsports.msnbc.com"] {
     background-position: 0 0
-    }
+}
+
 .md td a[href*="www.nbc.com"] {
     background-position: 0 -26px
-    }
+}
+
 .md td a[href*="channel/espn"] {
     background-position: 0 -52px
-    }
+}
+
 .md td a[href*="channel/espn2"] {
     background-position: 0 -78px
-    }
+}
+
 .md td a[href*="channel/espn3"] {
     background-position: 0 -104px
-    }
+}
+
 .md td a[href*="#tsn"] {
     background-position: 0 -130px
-    }
+}
+
 .md td a[href*="#tsn2"] {
     background-position: 0 -156px
-    }
+}
+
 .md td a[href*="live.mlssoccer.com"] {
     background-position: 0 -181px
-    }
+}
+
 .md td a[href*="#galavision"] {
     background-position: 0 -208px
-    }
+}
+
 .md td a[href*="univision.com/deportes/futbol/mls"] {
     background-position: 0 -234px
-    }
+}
+
 .md td a[href*="#telefutura"] {
     background-position: 0 -260px
-    }
+}
+
 .md td a[href*="foxsports.com/foxsoccer"] {
     background-position: 0 -286px
-    }
+}
+
 .md td a[href*="foxsoccerplus.com"] {
     background-position: 0 -311px
-    }
+}
+
 .md td a[href*="sportsnet.ca"] {
     background-position: 0 -338px
-    }
+}
+
 .md td a[href*="youtube.com"], .md td a[href*="youtu.be"] {
     background-position: 0 -364px
-    }
+}
+
 .md td a[href*="/unimas"] {
     background-position: 0 -391px
-    }
+}
+
 .md td a[href*="beinsport.tv"] {
     background-position: 0 -415px
-    }
+}
+
 .md td a[href*="fox.com"] {
     background-position: 0 -443px
-    }
+}
+
 .md td a[href*="msn.foxsports.com/foxsports1"] {
     background-position: 0 -474px
-    }
+}
+
 .md td a[href*="wikipedia.org/wiki/Fox_Sports_2"] {
     background-position: 0 -506px
-    }
+}
+
 .md td a[href*="goltv.tv/en"] {
     background-position: 0 -541px
-    }
+}
+
 .md td a[href*="oneworldsports.com/"] {
     background-position: 0 -576px
-    }
+}
+
 .md td a[href*="live.fb.com"] {
     background-position: 0 -670px
-    }
+}
 
 /* ====== User Flair ====== */
 /* ===== Flair hover effect ===== */
@@ -1353,7 +1749,8 @@ body.res div#NREFloat {
     background-color: whitesmoke;
     margin-right: 1ex;
     cursor:default
-    }
+}
+
 /* ===== Flair crest ===== */
 .flair:before {
     content: "";
@@ -1364,7 +1761,7 @@ body.res div#NREFloat {
     background-image: url(%%flair%%);
     vertical-align: top;
     margin-right: 4px
-    }
+}
 .flair {
     width: 20px;
     height: 20px;
@@ -1378,15 +1775,33 @@ body.res div#NREFloat {
     margin-right: 3px;
     border-width: 0;
     border-radius: 3px
-    }
+}
+
 .flairsample-left.texteditable .flair {
     font-size: 0em
-    }
+}
+
 .flairsample-left.texteditable .flair:hover {
     font-size: 1em
-    }
+}
+
 /* ===== Match events ===== */
-a[href="/yellow"], a[href="/second-yellow"], a[href="/red"], a[href="/injury"], a[href="/captain"], a[href="/sub"], a[href="/sub-on"], a[href="/sub-off"], a[href="/goal"], a[href="/own-goal"], a[href="/assist"], a[href="/whistle"], a[href="/offside"], a[href="/penalty-made"], a[href="/penalty-missed"] {
+
+a[href="/yellow"], 
+a[href="/second-yellow"], 
+a[href="/red"], 
+a[href="/injury"],
+a[href="/captain"], 
+a[href="/sub"], 
+a[href="/sub-on"], 
+a[href="/sub-off"], 
+a[href="/goal"], 
+a[href="/own-goal"], 
+a[href="/assist"], 
+a[href="/whistle"], 
+a[href="/offside"], 
+a[href="/penalty-made"], 
+a[href="/penalty-missed"] {
     width: 15px;
     height: 15px;
     background-color: transparent;
@@ -1395,54 +1810,104 @@ a[href="/yellow"], a[href="/second-yellow"], a[href="/red"], a[href="/injury"], 
     display:inline-block;
     vertical-align: top;
     border-width: 0
-    }
+}
+
 a[href="/yellow"] {
     background-position: 0 0
-    }
+}
+
 a[href="/second-yellow"] {
     background-position: -16px 0
-    }
+}
+
 a[href="/red"] {
     background-position: -32px 0
-    }
+}
+
 a[href="/injury"] {
     background-position: -48px 0
-    }
+}
+
 a[href="/captain"] {
     background-position: 0 -16px
-    }
+}
+
 a[href="/sub"] {
     background-position: -16px -16px
-    }
+}
+
 a[href="/sub-on"] {
     background-position: -32px -16px
-    }
+}
+
 a[href="/sub-off"] {
     background-position: -48px -16px
-    }
-.content a[href="/goal"], .md td a[href*="/goal"], .flair-goal:before {
+}
+
+.content a[href="/goal"], 
+.md td a[href*="/goal"], 
+.flair-goal:before {
     background-position: 0 -32px
-    }
+}
+
 a[href="/own-goal"] {
     background-position: -16px -32px
-    }
+}
+
 a[href="/assist"] {
     background-position: -32px -32px
-    }
+}
+
 a[href="/whistle"] {
     background-position: -48px -32px
-    }
+}
+
 a[href="/offside"] {
     background-position: 0 -48px
-    }
+}
+
 a[href="/penalty-made"] {
     background-position: -16px -48px
-    }
+}
+
 a[href="/penalty-missed"] {
     background-position: -32px -48px
-    }
+}
 /* ===== Superclass for all MLS flair functions - please be careful editing this! ===== */
-a[href="/MLS"], a[href="/CHI"], a[href="/CHV"], a[href="/COL"], a[href="/CLB"], a[href="/DC"], a[href="/FCD"], a[href="/DAL"], a[href="/HOU"], a[href="/LAG"], a[href="/MNUFC"], a[href="/MIN"], a[href="/MNU"], a[href="/MON"], a[href="/MTL"], a[href="/NE"], a[href="/NER"], a[href="/NYRB"], a[href="/RBNY"], a[href="/PHI"], a[href="/POR"], a[href="/RSL"], a[href="/SJE"], a[href="/SEA"], a[href="/SKC"], a[href="/TFC"], a[href="/VAN"], a[href="/NYCFC"], a[href="/NYC"], a[href="/ATL"], a[href="/ATLUFC"], a[href="/OC"], a[href="/ORL"], a[href="/LAFC"] {
+a[href="/MLS"], a
+[href="/CHI"], 
+a[href="/CHV"], 
+a[href="/COL"], 
+a[href="/CLB"], 
+a[href="/DC"], 
+a[href="/FCD"], 
+a[href="/DAL"], 
+a[href="/HOU"], 
+a[href="/LAG"], 
+a[href="/MNUFC"], 
+a[href="/MIN"], 
+a[href="/MNU"], 
+a[href="/MON"], 
+a[href="/MTL"], 
+a[href="/NE"],
+a[href="/NER"], 
+a[href="/NYRB"], 
+a[href="/RBNY"], 
+a[href="/PHI"], 
+a[href="/POR"], 
+a[href="/RSL"], 
+a[href="/SJE"], 
+a[href="/SEA"], 
+a[href="/SKC"], 
+a[href="/TFC"], 
+a[href="/VAN"], 
+a[href="/NYCFC"], 
+a[href="/NYC"], 
+a[href="/ATL"], 
+a[href="/ATLUFC"], 
+a[href="/OC"], 
+a[href="/ORL"], 
+a[href="/LAFC"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1454,9 +1919,36 @@ a[href="/MLS"], a[href="/CHI"], a[href="/CHV"], a[href="/COL"], a[href="/CLB"], 
     margin-right: 3px;
     margin-left: 3px;
     border-width: 0
-    }
+}
+
 /* ===== Superclass for all NASL flair functions - Cosmos may have to be changed if New York City comes to MLS (leaving that note here because I totally called NYCFC before it happened) ===== */
-a[href="/NASL"], a[href="/ATLS"], a[href="/CAR"], a[href="/NCFC"], a[href="/EDM"], a[href="/FCE"], a[href="/FTL"], a[href="/IND"], a[href="/MNUN"], a[href="/MINS"], a[href="/COS"], a[href="/OTF"], a[href="/OTT"], a[href="/PRI"], a[href="/SAS"], a[href="/SA"], a[href="/TBR"], a[href="/TB"], a[href="/VC"], a[href="/VIR"], a[href="/JAX"], a[href="/MFC"], a[href="/PRFC"], a[href="/RAYO"], a[href="/CHI2"], a[href="/SFD"] {
+
+a[href="/NASL"], 
+a[href="/ATLS"], 
+a[href="/CAR"], 
+a[href="/NCFC"], 
+a[href="/EDM"], 
+a[href="/FCE"], 
+a[href="/FTL"], 
+a[href="/IND"], 
+a[href="/MNUN"], 
+a[href="/MINS"], 
+a[href="/COS"], 
+a[href="/OTF"], 
+a[href="/OTT"], 
+a[href="/PRI"], 
+a[href="/SAS"], 
+a[href="/SA"], 
+a[href="/TBR"], 
+a[href="/TB"], 
+a[href="/VC"], 
+a[href="/VIR"], 
+a[href="/JAX"], 
+a[href="/MFC"], 
+a[href="/PRFC"], 
+a[href="/RAYO"], 
+a[href="/CHI2"], 
+a[href="/SFD"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1468,9 +1960,51 @@ a[href="/NASL"], a[href="/ATLS"], a[href="/CAR"], a[href="/NCFC"], a[href="/EDM"
     margin-right: 3px;
     margin-left: 3px;
     border-width: 0
-    }
+}
+
 /* ===== Superclass for all USL-Pro flair functions ===== */
-a[href="/USL"], a[href="/ANT"], a[href="/CHB"], a[href="/CHE"], a[href="/DDL"], a[href="/CDL"], a[href="/HBG"], a[href="/HCI"],  a[href="/ORLUSL"], a[href="/PHO"], a[href="/PHX"], a[href="/PGH"], a[href="/PIT"], a[href="/RMD"], a[href="/RCH"], a[href="/ROC"],  a[href="/WIL"], a[href="/SAC"], a[href="/EFC"], a[href="/OCB"], a[href="/OCSC"], a[href="/TUL"], a[href="/CSS"], a[href="/LAGII"], a[href="/AZU"], a[href="/LOU"], a[href="/STL"], a[href="/FCM"], a[href="/TFCII"], a[href="/CLI"], a[href="/NYRBII"], a[href="/RMSLC"], a[href="/SEA2"], a[href="/POR2"], a[href="/VAN2"], a[href="/BET"], a[href="/FCC"], a[href="/ORLB"], a[href="/RGV"], a[href="/SPR"], a[href="/SAFC"], a[href="/RENO"] {
+a[href="/USL"], 
+a[href="/ANT"], 
+a[href="/CHB"], 
+a[href="/CHE"], 
+a[href="/DDL"], 
+a[href="/CDL"], 
+a[href="/HBG"], 
+a[href="/HCI"],  
+a[href="/ORLUSL"], 
+a[href="/PHO"],
+a[href="/PHX"], 
+a[href="/PGH"], 
+a[href="/PIT"], 
+a[href="/RMD"], 
+a[href="/RCH"], 
+a[href="/ROC"],  
+a[href="/WIL"], 
+a[href="/SAC"], 
+a[href="/EFC"], 
+a[href="/OCB"], 
+a[href="/OCSC"], 
+a[href="/TUL"], 
+a[href="/CSS"], 
+a[href="/LAGII"], 
+a[href="/AZU"], 
+a[href="/LOU"], 
+a[href="/STL"], 
+a[href="/FCM"], 
+a[href="/TFCII"], 
+a[href="/CLI"], 
+a[href="/NYRBII"], 
+a[href="/RMSLC"], 
+a[href="/SEA2"], 
+a[href="/POR2"], 
+a[href="/VAN2"], 
+a[href="/BET"], 
+a[href="/FCC"], 
+a[href="/ORLB"], 
+a[href="/RGV"], 
+a[href="/SPR"], 
+a[href="/SAFC"], 
+a[href="/RENO"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1482,10 +2016,46 @@ a[href="/USL"], a[href="/ANT"], a[href="/CHB"], a[href="/CHE"], a[href="/DDL"], 
     margin-right: 3px;
     margin-left: 3px;
     border-width: 0
-    }
+}
+
 /* ===== Superclass for all International flair functions ===== */
 
-a[href="/WORLD"], a[href="/USA"], a[href="/MEX"], a[href="/MEXICO"], a[href="/CAN"], a[href="/CANADA"], a[href="/COSTARICA"], a[href="/CONCACAF"], a[href="/BAHAMAS"], a[href="/JAMAICA"], a[href="/PANAMA"], a[href="/HON"], a[href="/HONDURAS"], a[href="/CCL"], a[href="/CGC"], a[href="/FIFA"], a[href="/BELIZE"], a[href="/CUBA"], a[href="/ELSALVADOR"], a[href="/HAITI"], a[href="/COLOMBIA"], a[href="/TRINIDAD"], a[href="/TRINIDADANDTOBAGO"], a[href="/GUATEMALA"], a[href="/NICARAGUA"], a[href="/WORLDCUP"], a[href="/ANTIGUA"], a[href="/ECUADOR"], a[href="/BOLIVIA"], a[href="/ARGENTINA"], a[href="/BRAZIL"], a[href="/CHILE"],  a[href="/PARAGUAY"], a[href="/PERU"], a[href="/URUGUAY"], a[href="/VENEZUELA"] {
+a[href="/WORLD"], 
+a[href="/USA"], 
+a[href="/MEX"], 
+a[href="/MEXICO"], 
+a[href="/CAN"], 
+a[href="/CANADA"], 
+a[href="/COSTARICA"], 
+a[href="/CONCACAF"], 
+a[href="/BAHAMAS"], 
+a[href="/JAMAICA"], 
+a[href="/PANAMA"], 
+a[href="/HON"], 
+a[href="/HONDURAS"], 
+a[href="/CCL"], 
+a[href="/CGC"], 
+a[href="/FIFA"], 
+a[href="/BELIZE"], 
+a[href="/CUBA"], 
+a[href="/ELSALVADOR"], 
+a[href="/HAITI"], 
+a[href="/COLOMBIA"], 
+a[href="/TRINIDAD"], 
+a[href="/TRINIDADANDTOBAGO"], 
+a[href="/GUATEMALA"], 
+a[href="/NICARAGUA"], 
+a[href="/WORLDCUP"], 
+a[href="/ANTIGUA"], 
+a[href="/ECUADOR"], 
+a[href="/BOLIVIA"], 
+a[href="/ARGENTINA"], 
+a[href="/BRAZIL"], 
+a[href="/CHILE"], 
+a[href="/PARAGUAY"], 
+a[href="/PERU"], 
+a[href="/URUGUAY"], 
+a[href="/VENEZUELA"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1497,9 +2067,52 @@ a[href="/WORLD"], a[href="/USA"], a[href="/MEX"], a[href="/MEXICO"], a[href="/CA
     margin-right: 3px;
     margin-left: 3px;
     border-width: 0
-    }
+}
+
 /* ===== Superclass for all International Club flair functions ===== */
-a[href="/BELMOPAN"], a[href="/METAPAN"], a[href="/ARABE"], a[href="/CHIVAS"], a[href="/OLIMPIA"], a[href="/VICTORIA"], a[href="/CLUBAMERICA"], a[href="/COMUNICACIONES"], a[href="/CRUZAZUL"], a[href="/ALAJUELENSE"], a[href="/MORELIA"], a[href="/REALESTELI"], a[href="/SANMIGUELITO"], a[href="/TIJUANA"], a[href="/XOLOS"], a[href="/TOLUCA"], a[href="/VALENCIAFC"], a[href="/WCONNECTION"], a[href="/CALEDONIA"], a[href="/HEREDIANO"], a[href="/FIRPO"], a[href="/CARTAGINES"], a[href="/TIGRES"], a[href="/PUEBLA"], a[href="/SANTOS"], a[href="/XELAJU"], a[href="/SAPRISSA"], a[href="/HEREDIA"], a[href="/LEON"], a[href="/PACHUCA"], a[href="/REALESPANA"], a[href="/MUNICIPAL"], a[href="/TAURO"], a[href="/CHORRILLO"], a[href="/FAS"], a[href="/BAYAMON"], a[href="/WATERHOUSE"], a[href="/ALPHA"], a[href="/ATLAS"], a[href="/MONTERREY"], a[href="/QUERETARO"], a[href="/ARSENAL"], a[href="/REALMADRID"] {
+a[href="/BELMOPAN"], 
+a[href="/METAPAN"], 
+a[href="/ARABE"], 
+a[href="/CHIVAS"], 
+a[href="/OLIMPIA"], 
+a[href="/VICTORIA"], 
+a[href="/CLUBAMERICA"], 
+a[href="/COMUNICACIONES"], 
+a[href="/CRUZAZUL"], 
+a[href="/ALAJUELENSE"], 
+a[href="/MORELIA"], 
+a[href="/REALESTELI"], 
+a[href="/SANMIGUELITO"], 
+a[href="/TIJUANA"], 
+a[href="/XOLOS"], 
+a[href="/TOLUCA"], 
+a[href="/VALENCIAFC"], 
+a[href="/WCONNECTION"], 
+a[href="/CALEDONIA"], 
+a[href="/HEREDIANO"], 
+a[href="/FIRPO"], 
+a[href="/CARTAGINES"], 
+a[href="/TIGRES"], 
+a[href="/PUEBLA"], 
+a[href="/SANTOS"], 
+a[href="/XELAJU"], 
+a[href="/SAPRISSA"], 
+a[href="/HEREDIA"], 
+a[href="/LEON"], 
+a[href="/PACHUCA"], 
+a[href="/REALESPANA"], 
+a[href="/MUNICIPAL"], 
+a[href="/TAURO"], 
+a[href="/CHORRILLO"], 
+a[href="/FAS"], 
+a[href="/BAYAMON"], 
+a[href="/WATERHOUSE"], 
+a[href="/ALPHA"], 
+a[href="/ATLAS"], 
+a[href="/MONTERREY"], 
+a[href="/QUERETARO"], 
+a[href="/ARSENAL"], 
+a[href="/REALMADRID"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1511,9 +2124,203 @@ a[href="/BELMOPAN"], a[href="/METAPAN"], a[href="/ARABE"], a[href="/CHIVAS"], a[
     margin-right: 3px;
     margin-left: 3px;
     border-width: 0
-    }
+}
+
 /* ===== Superclass for all Miscellaneous flair functions ===== */
-a[href="/CLE"], a[href="/AUS"], a[href="/BAL"], a[href="/BTR"], a[href="/CHA"], a[href="/DALS"], a[href="/DS"], a[href="/DET"], a[href="/DCFC"], a[href="/FCNY"], a[href="/TUS"], a[href="/FRE"], a[href="/HAM"], a[href="/KIT"], a[href="/NYW"], a[href="/LALAS"], a[href="/MAD"], a[href="/MIE"], a[href="/NO"], a[href="/NOJ"], a[href="/PSG"], a[href="/SDG"], a[href="/SDF"], a[href="/STLL"], a[href="/TAC"], a[href="/BUF"], a[href="/KNO"], a[href="/DCR"], a[href="/DMM"], a[href="/SACG"], a[href="/CAD"], a[href="/LVU"], a[href="/BRI"], a[href="/RWB"], a[href="/WMP"], a[href="/MIAF"], a[href="/NYM"], a[href="/SJC"],  a[href="/MTLNASL"], a[href="/DALB"], a[href="/TBM"], a[href="/BEL"], a[href="/OKCFC"], a[href="/USOC"], a[href="/CANC"], a[href="/FCL"], a[href="/VHFC"], a[href="/KWU"], a[href="/MIL"], a[href="/KCW"], a[href="/DETE"], a[href="/TULA"], a[href="/TBC"], a[href="/PORUSL"], a[href="/MBM"], a[href="/EPL"], a[href="/FCTB"], a[href="/WUFC"], a[href="/DETR"], a[href="/BEAR"], a[href="/BSFC"], a[href="/TWELLMAN"], a[href="/CAL"], a[href="/DASH"], a[href="/SDS"], a[href="/FBM"], a[href="/HAL"], a[href="/WIL2"], a[href="/VANV"], a[href="/LAG2"], a[href="/SSD"], a[href="/VALU"], a[href="/TEFC"], a[href="/NFC"], a[href="/GRFC"], a[href="/WICH"], a[href="/LANE"],  a[href="/BRN"], a[href="/JB93"], a[href="/JER"], a[href="/VER"], a[href="/GBT"], a[href="/WVC"], a[href="/UTF"], a[href="/OO"], a[href="/UTB"], a[href="/LVM"], a[href="/CIN"], a[href="/SFS"], a[href="/POC"], a[href="/ACC"], a[href="/FRM"], a[href="/ECS"], a[href="/LANS"], a[href="/WAZA"], a[href="/MLS2"], a[href="/CLB2"], a[href="/DCU2"], a[href="/HDL"], a[href="/OSA"], a[href="/MET"], a[href="/EPP"], a[href="/ARKC"], a[href="/KIXX"], a[href="/ALB"], a[href="/FFC"], a[href="/SFCFC"], a[href="/CALJ"], a[href="/ACSTL"], a[href="/BIR"], a[href="/FUTSOC"], a[href="/USWNT"], a[href="/SFF"], a[href="/SIGMA"], a[href="/CRR"], a[href="/COL2"], a[href="/WF"], a[href="/HFC"], a[href="/AAA"], a[href="/DAY"], a[href="/MEM"], a[href="/KING"], a[href="/ACFC"], a[href="/BRFC"], a[href="/LB"], a[href="/LAW"], a[href="/MAQ"], a[href="/MNO"], a[href="/NYPF"], a[href="/OUT"], a[href="/REDF"], a[href="/NTX"], a[href="/SNFC"], a[href="/SOU"], a[href="/WCU"], a[href="/CDA"], a[href="/CFCSA"], a[href="/GPS"], a[href="/MIB"], a[href="/RUAC"], a[href="/OCN"], a[href="/VCF"], a[href="/BUR"], a[href="/CUFC"], a[href="/CSCE"], a[href="/FCW"], a[href="/LIRR"], a[href="/MFFC"], a[href="/MIS"], a[href="/SUP"], a[href="/VIL"], a[href="/KRAZE"], a[href="/SPO"], a[href="/RMDS"], a[href="/HAK"], a[href="/CHIL"], a[href="/UGH"], a[href="/SSU"], a[href="/AUR"], a[href="/SWSA"], a[href="/TOR"], a[href="/MKE"], a[href="/CGY"], a[href="/FRE"], a[href="/MIB"], a[href="/VIL"],  a[href="/BUR"], a[href="/DCR"], a[href="/WMP"], a[href="/MAQ"], a[href="/BRFC"], a[href="/ASCP"],  a[href="/MIAU"],  a[href="/NJC"],  a[href="/SCS"],  a[href="/BOSC"], a[href="/L76"], a[href="/CFCU"], a[href="/FCGSF"], a[href="/SDZ"], a[href="/SCUB"], a[href="/SFSU"], a[href="/CVFC"], a[href="/ELF"], a[href="/MVFC"], a[href="/AZTFC"], a[href="/COLR"], a[href="/CHRI"], a[href="/GPSO"], a[href="/ANAH"], a[href="/MOTO"], a[href="/JLSFC"], a[href="/TDOA"] {
+
+a[href="/CLE"], 
+a[href="/AUS"], 
+a[href="/BAL"], 
+a[href="/BTR"], 
+a[href="/CHA"], 
+a[href="/DALS"], 
+a[href="/DS"], 
+a[href="/DET"], 
+a[href="/DCFC"], 
+a[href="/FCNY"], 
+a[href="/TUS"], 
+a[href="/FRE"], 
+a[href="/HAM"], 
+a[href="/KIT"], 
+a[href="/NYW"], 
+a[href="/LALAS"], 
+a[href="/MAD"], 
+a[href="/MIE"], 
+a[href="/NO"], 
+a[href="/NOJ"], 
+a[href="/PSG"], 
+a[href="/SDG"], 
+a[href="/SDF"], 
+a[href="/STLL"], 
+a[href="/TAC"], 
+a[href="/BUF"], 
+a[href="/KNO"], 
+a[href="/DCR"], 
+a[href="/DMM"], 
+a[href="/SACG"], 
+a[href="/CAD"], 
+a[href="/LVU"], 
+a[href="/BRI"], 
+a[href="/RWB"], 
+a[href="/WMP"], 
+a[href="/MIAF"], 
+a[href="/NYM"], 
+a[href="/SJC"],  
+a[href="/MTLNASL"], 
+a[href="/DALB"], 
+a[href="/TBM"], 
+a[href="/BEL"], 
+a[href="/OKCFC"], 
+a[href="/USOC"], 
+a[href="/CANC"], 
+a[href="/FCL"], 
+a[href="/VHFC"], 
+a[href="/KWU"], 
+a[href="/MIL"], 
+a[href="/KCW"], 
+a[href="/DETE"], 
+a[href="/TULA"], 
+a[href="/TBC"], 
+a[href="/PORUSL"], 
+a[href="/MBM"], 
+a[href="/EPL"], 
+a[href="/FCTB"], 
+a[href="/WUFC"], 
+a[href="/DETR"], 
+a[href="/BEAR"], 
+a[href="/BSFC"], 
+a[href="/TWELLMAN"], 
+a[href="/CAL"], 
+a[href="/DASH"], 
+a[href="/SDS"], 
+a[href="/FBM"], 
+a[href="/HAL"], 
+a[href="/WIL2"], 
+a[href="/VANV"], 
+a[href="/LAG2"], 
+a[href="/SSD"], 
+a[href="/VALU"], 
+a[href="/TEFC"], 
+a[href="/NFC"], 
+a[href="/GRFC"], 
+a[href="/WICH"], 
+a[href="/LANE"],  
+a[href="/BRN"], 
+a[href="/JB93"], 
+a[href="/JER"], 
+a[href="/VER"], 
+a[href="/GBT"], 
+a[href="/WVC"], 
+a[href="/UTF"], 
+a[href="/OO"], 
+a[href="/UTB"], 
+a[href="/LVM"], 
+a[href="/CIN"], 
+a[href="/SFS"], 
+a[href="/POC"], 
+a[href="/ACC"], 
+a[href="/FRM"], 
+a[href="/ECS"], 
+a[href="/LANS"], 
+a[href="/WAZA"], 
+a[href="/MLS2"], 
+a[href="/CLB2"], 
+a[href="/DCU2"], 
+a[href="/HDL"], 
+a[href="/OSA"], 
+a[href="/MET"], 
+a[href="/EPP"], 
+a[href="/ARKC"], 
+a[href="/KIXX"], 
+a[href="/ALB"], 
+a[href="/FFC"], 
+a[href="/SFCFC"], 
+a[href="/CALJ"], 
+a[href="/ACSTL"], 
+a[href="/BIR"], 
+a[href="/FUTSOC"], 
+a[href="/USWNT"], 
+a[href="/SFF"], 
+a[href="/SIGMA"], 
+a[href="/CRR"], 
+a[href="/COL2"], 
+a[href="/WF"], 
+a[href="/HFC"], 
+a[href="/AAA"], 
+a[href="/DAY"], 
+a[href="/MEM"], 
+a[href="/KING"], 
+a[href="/ACFC"], 
+a[href="/BRFC"], 
+a[href="/LB"], 
+a[href="/LAW"], 
+a[href="/MAQ"], 
+a[href="/MNO"], 
+a[href="/NYPF"], 
+a[href="/OUT"], 
+a[href="/REDF"], 
+a[href="/NTX"], 
+a[href="/SNFC"], 
+a[href="/SOU"],
+a[href="/WCU"], 
+a[href="/CDA"], 
+a[href="/CFCSA"], 
+a[href="/GPS"], 
+a[href="/MIB"], 
+a[href="/RUAC"],
+a[href="/OCN"], 
+a[href="/VCF"], 
+a[href="/BUR"], 
+a[href="/CUFC"], 
+a[href="/CSCE"], 
+a[href="/FCW"], 
+a[href="/LIRR"], 
+a[href="/MFFC"], 
+a[href="/MIS"], 
+a[href="/SUP"], 
+a[href="/VIL"], 
+a[href="/KRAZE"], 
+a[href="/SPO"], 
+a[href="/RMDS"], 
+a[href="/HAK"], 
+a[href="/CHIL"],
+a[href="/UGH"], 
+a[href="/SSU"], 
+a[href="/AUR"], 
+a[href="/SWSA"], 
+a[href="/TOR"], 
+a[href="/MKE"], 
+a[href="/CGY"], 
+a[href="/FRE"], 
+a[href="/MIB"], 
+a[href="/VIL"],  
+a[href="/BUR"], 
+a[href="/DCR"], 
+a[href="/WMP"], 
+a[href="/MAQ"], 
+a[href="/BRFC"], 
+a[href="/ASCP"],  
+a[href="/MIAU"],  
+a[href="/NJC"],  
+a[href="/SCS"],  
+a[href="/BOSC"], 
+a[href="/L76"], 
+a[href="/CFCU"], 
+a[href="/FCGSF"], 
+a[href="/SDZ"], 
+a[href="/SCUB"], 
+a[href="/SFSU"], 
+a[href="/CVFC"], 
+a[href="/ELF"], 
+a[href="/MVFC"], 
+a[href="/AZTFC"], 
+a[href="/COLR"], 
+a[href="/CHRI"], 
+a[href="/GPSO"], 
+a[href="/ANAH"], 
+a[href="/MOTO"], 
+a[href="/JLSFC"], 
+a[href="/TDOA"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1850,7 +2657,7 @@ a[href="/NWSL"], a[href="/BOSB"], a[href="/CHIR"], a[href="/FCKC"], a[href="/POR
 .content a[href="/HON"], .content a[href="/HONDURAS"], .md td a[href*="/HONDURAS"], .flair-honduras:before {
     background-position: -84px -266px
     }
-.content a[href="/CCL"], ,md td a[href*="/CCL"], .flair-concacaf-champions-league:before {
+.content a[href="/CCL"], md td a[href*="/CCL"], .flair-concacaf-champions-league:before {
     background-position: -84px -306px
     }
 .content a[href="/CGC"], .flair-concacaf-gold-cup:before {
@@ -2657,18 +3464,26 @@ a[href="/CHIEFS"], a[href="/MUSTANGS"], a[href="/STING"], a[href="/EXPRESS"], a[
 .content a[href="/AMERICA"], .flair-team-america:before {
     background-position: -166px -1200px
 }
-.content a[href="/BLIZZARD"], .flair-toronto-blizzard:before {
+.content a[href="/BLIZZARD"],
+ .flair-toronto-blizzard:before {
     background-position: -166px -1240px
 }
-.content a[href="/ROUGHNECKS"], .content a[href="/TULR"], .flair-tulsa-roughnecks-nasl:before {
+
+.content a[href="/ROUGHNECKS"],
+ .content a[href="/TULR"],
+  .flair-tulsa-roughnecks-nasl:before {
     background-position: -166px -1340px
 }
-.content a[href="/WHITECAPS"], .flair-vancouver-whitecaps-nasl:before {
+.content a[href="/WHITECAPS"],
+ .flair-vancouver-whitecaps-nasl:before {
     background-position: -166px -1380px
 }
-.content a[href="/DIPLOMATS"], .flair-washington-diplomats:before {
+
+.content a[href="/DIPLOMATS"],
+ .flair-washington-diplomats:before {
     background-position: -166px -1420px
 }
+
 /*Announcement*/
 .content{
 margin-top:20px;
@@ -2690,15 +3505,17 @@ margin-right:310px;
     text-align: center;
     padding-top:3px;
 }
+
 .side .md h3:nth-of-type(1) a:active,
 .side .md h3:nth-of-type(1) a:visited,
 .side .md h3:nth-of-type(1) a:link {
 	color: 	#000000;
 }
+
 .side .md h3:nth-of-type(1) a:hover {
-    color: orangered!important;
+    color: orangered !important;
 }
 .res-nightmode .side .md h3:nth-of-type(1) {
-    background-color: #transparent!important;
-    color:#474747!important;
+    background-color: transparent !important;
+    color:#474747 !important;
 }
