@@ -2334,7 +2334,16 @@ a[href="/TDOA"] {
     border-width: 0
     }
 /* ===== Superclass for all Women's League flair functions ===== */
-a[href="/NWSL"], a[href="/BOSB"], a[href="/CHIR"], a[href="/FCKC"], a[href="/PORT"], a[href="/SEAR"], a[href="/SBFC"], a[href="/WAS"], a[href="/WNYF"], a[href="/ORLP"] {
+a[href="/NWSL"], 
+a[href="/BOSB"], 
+a[href="/CHIR"], 
+a[href="/FCKC"], 
+a[href="/PORT"], 
+a[href="/SEAR"], 
+a[href="/SBFC"], 
+a[href="/WAS"], 
+a[href="/WNYF"], 
+a[href="/ORLP"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -2346,1053 +2355,1853 @@ a[href="/NWSL"], a[href="/BOSB"], a[href="/CHIR"], a[href="/FCKC"], a[href="/POR
     margin-right: 3px;
     margin-left: 3px;
     border-width: 0
-    }
+}
 /* ===== Team crests ===== */
 /* ===== MLS ===== */
-.content a[href="/MLS"], .md td a[href*="/MLS"], .flair-mls:before {
+.content a[href="/MLS"], 
+.md td a[href*="/MLS"], 
+.flair-mls:before {
     background-position: 0 0
-    }
-.content a[href="/ATL"], .content a[href="/ATLUTD"], .flair-atlanta-2017:before {
+}
+
+.content a[href="/ATL"],
+.content a[href="/ATLUTD"],
+.flair-atlanta-2017:before {
     background-position: 0 -441px
-    }
-.content a[href="/CHI"], .flair-chicago-fire:before {
+}
+
+.content a[href="/CHI"], 
+.flair-chicago-fire:before {
     background-position: 0 -21px
-    }
-.content a[href="/CHV"], .flair-chivas-usa:before {
+}
+
+.content a[href="/CHV"], 
+.flair-chivas-usa:before {
     background-position: 0 -42px
-    }
-.content a[href="/COL"], .flair-colorado-rapids:before {
+}
+
+.content a[href="/COL"], 
+.flair-colorado-rapids:before {
     background-position: 0 -63px
-    }
-.content a[href="/CLB"], .flair-columbus-crew:before {
+}
+
+.content a[href="/CLB"],
+ .flair-columbus-crew:before {
     background-position: 0 -84px
-    }
-.content a[href="/DC"], .flair-dc-united:before {
+}
+
+.content a[href="/DC"], 
+.flair-dc-united:before {
     background-position: 0 -105px;
-    }
-.content a[href="/FCD"], .content a[href="/DAL"], .flair-fc-dallas:before {
+}
+
+.content a[href="/FCD"], 
+.content a[href="/DAL"], 
+.flair-fc-dallas:before {
     background-position: 0 -126px
-    }
-.content a[href="/HOU"], .flair-houston-dynamo:before {
+}
+
+.content a[href="/HOU"], 
+.flair-houston-dynamo:before {
     background-position: 0 -147px
-    }
-.content a[href="/LAG"], .flair-la-galaxy:before {
+}
+
+.content a[href="/LAG"], 
+.flair-la-galaxy:before {
     background-position: 0 -168px;
-    }
-.content a[href="/MIN"], .content a[href="/MNUFC"], .content a[href="/MNU"], .flair-minnesota-united:before {
+}
+
+.content a[href="/MIN"], 
+.content a[href="/MNUFC"], 
+.content a[href="/MNU"], 
+.flair-minnesota-united:before {
     background-position: -21px -231px;
     right: 395px
-    }
-.content a[href="/MON"],  .content a[href="/MTL"], .flair-montreal-impact:before {
+}
+
+.content a[href="/MON"],  
+.content a[href="/MTL"], 
+.flair-montreal-impact:before {
     background-position: 0 -189px
-    }
-.content a[href="/NER"], .content a[href="/NE"], .flair-new-england-revolution:before {
+}
+
+.content a[href="/NER"], 
+.content a[href="/NE"], 
+.flair-new-england-revolution:before {
     background-position: 0 -210px
-    }
-.content a[href="/NYRB"], .content a[href="/RBNY"], .flair-new-york-red-bulls:before {
+}
+
+.content a[href="/NYRB"], 
+.content a[href="/RBNY"], 
+.flair-new-york-red-bulls:before {
     background-position: 0 -231px
-    }
-.content a[href="/PHI"], .flair-philadelphia-union:before {
+}
+
+.content a[href="/PHI"], 
+.flair-philadelphia-union:before {
     background-position: 0 -252px
-    }
-.content a[href="/POR"], .flair-portland-timbers:before {
+}
+
+.content a[href="/POR"], 
+.flair-portland-timbers:before {
     background-position: 0 -273px
-    }
-.content a[href="/RSL"], .flair-real-salt-lake:before {
+}
+
+.content a[href="/RSL"], 
+.flair-real-salt-lake:before {
     background-position: 0 -294px
-    }
-.content a[href="/SJE"], .flair-san-jose-earthquakes:before {
+}
+
+.content a[href="/SJE"], 
+.flair-san-jose-earthquakes:before {
     background-position: 0 -315px
-    }
-.content a[href="/SEA"], .flair-seattle-sounders:before {
+}
+
+.content a[href="/SEA"], 
+.flair-seattle-sounders:before {
     background-position: 0 -336px
-    }
-.content a[href="/SKC"], .flair-sporting-kansas-city:before {
+}
+
+.content a[href="/SKC"], 
+.flair-sporting-kansas-city:before {
     background-position: 0 -357px
-    }
-.content a[href="/TFC"], .flair-toronto-fc:before {
+}
+
+.content a[href="/TFC"], 
+.flair-toronto-fc:before {
     background-position: 0 -378px
-    }
-.content a[href="/VAN"], .flair-vancouver-whitecaps:before {
+}
+
+.content a[href="/VAN"], 
+.flair-vancouver-whitecaps:before {
     background-position: 0 -399px
-    }
-.content a[href="/NYCFC"], .content a[href="/NYC"], .flair-new-york-city-fc:before {
+}
+
+.content a[href="/NYCFC"], 
+.content a[href="/NYC"], 
+.flair-new-york-city-fc:before {
     background-position: 0 -420px
-    }
-.content a[href="/OC"], .content a[href="/ORL"], .flair-orlando-city:before {
+}
+
+.content a[href="/OC"], 
+.content a[href="/ORL"], 
+.flair-orlando-city:before {
     background-position: 0 -461px
-    }
-.content a[href="/LAFC"], .flair-los-angeles-fc:before {
+}
+
+.content a[href="/LAFC"], 
+.flair-los-angeles-fc:before {
     background-position: 0 -481px
-    }
+}
+
 /* ===== NASL ===== */
-.content a[href="/NASL"], .flair-nasl:before {
+.content a[href="/NASL"], 
+.flair-nasl:before {
     background-position: -21px 0
-    }
-.content a[href="/ATLS"], .flair-atlanta-silverbacks:before {
+}
+
+.content a[href="/ATLS"], 
+.flair-atlanta-silverbacks:before {
     background-position: -21px -21px
-    }
-.content a[href="/CAR"], .content a[href="/NCFC"], .md td a[href$="/NCFC"],  .flair-carolina-railhawks:before, .flair-north-carolina-fc:before {
+}
+
+.content a[href="/CAR"], 
+.content a[href="/NCFC"], 
+.md td a[href$="/NCFC"], 
+.flair-carolina-railhawks:before, 
+.flair-north-carolina-fc:before {
     background-position: -21px -42px
-    }
-.content a[href="/EDM"], .content a[href="/FCE"], .flair-fc-edmonton:before {
+}
+
+.content a[href="/EDM"], 
+.content a[href="/FCE"], 
+.flair-fc-edmonton:before {
     background-position: -21px -63px
-    }
-.content a[href="/FTL"], .md td a[href$="/FTL"], .flair-fort-lauderdale-strikers:before {
+}
+
+.content a[href="/FTL"], 
+.md td a[href$="/FTL"], 
+.flair-fort-lauderdale-strikers:before {
     background-position: -21px -84px
-    }
-.content a[href="/MINS"], .flair-minnesota-stars-fc:before {
+}
+
+.content a[href="/MINS"], 
+.flair-minnesota-stars-fc:before {
     background-position: -21px -105px
-    }
-.content a[href="/OTF"], .content a[href="/OTT"], .flair-ottawa-fury:before {
+}
+
+.content a[href="/OTF"], 
+.content a[href="/OTT"], 
+.flair-ottawa-fury:before {
     background-position: -21px -126px
-    }
-.content a[href="/PRI"], .flair-puerto-rico-islanders:before {
+}
+
+.content a[href="/PRI"], 
+.flair-puerto-rico-islanders:before {
     background-position: -21px -147px
-    }
-.content a[href="/SAS"], .content a[href="/SA"], .flair-san-antonio-scorpions:before {
+}
+
+.content a[href="/SAS"], 
+.content a[href="/SA"], 
+.flair-san-antonio-scorpions:before {
     background-position: -21px -168px
-    }
-.content a[href="/TBR"], .content a[href="/TB"], .flair-tampa-bay-rowdies:before {
+}
+
+.content a[href="/TBR"], 
+.content a[href="/TB"], 
+.flair-tampa-bay-rowdies:before {
     background-position: -21px -189px
-    }
-.content a[href="/IND"], .flair-indy-eleven:before {
+}
+
+.content a[href="/IND"], 
+.flair-indy-eleven:before {
     background-position: -21px -210px
-    }
-.content a[href="/MNUN"], .flair-minnesota-united-nasl:before {
+}
+
+.content a[href="/MNUN"], 
+.flair-minnesota-united-nasl:before {
     background-position: -21px -231px
-    }
-.content a[href="/VIR"], .content a[href="/VC"], .flair-virginia-cavalry:before {
+}
+
+.content a[href="/VIR"], 
+.content a[href="/VC"], 
+.flair-virginia-cavalry:before {
     background-position: -21px -252px
-    }
-.content a[href="/JAX"], .flair-jacksonville-armada:before {
+}
+
+.content a[href="/JAX"], 
+.flair-jacksonville-armada:before {
     background-position: -21px -273px
-    }
-.content a[href="/MFC"], .md td a[href$="/MFC"], .flair-miami-fc:before {
+}
+
+.content a[href="/MFC"], 
+.md td a[href$="/MFC"], 
+.flair-miami-fc:before {
     background-position: -21px -315px
-    }
-.content a[href="/PRFC"], .flair-puerto-rico-fc:before {
+}
+
+.content a[href="/PRFC"], 
+.flair-puerto-rico-fc:before {
     background-position: -21px -336px
-    }
-.content a[href="/RAYO"], .flair-rayo-okc:before {
+}
+
+.content a[href="/RAYO"], 
+.flair-rayo-okc:before {
     background-position: -21px -357px
-    }
-.content a[href="/CHI2"], .flair-chicago-nasl:before {
+}
+
+.content a[href="/CHI2"], 
+.flair-chicago-nasl:before {
     background-position: -21px -379px
-    }
-.content a[href="/SFD"], .md td a[href$="/SFD"], .flair-san-francisco-deltas:before {
+}
+
+.content a[href="/SFD"], 
+.md td a[href$="/SFD"], 
+.flair-san-francisco-deltas:before {
     background-position: -21px -399px
-    }
-.content a[href="/COS"], .md td a[href$="/COS"], .flair-new-york-cosmos:before {
+}
+
+.content a[href="/COS"], 
+.md td a[href$="/COS"], 
+.flair-new-york-cosmos:before {
     background-position: -126px -63px
-    }
+}
 /* ===== USL ===== */
-.content a[href="/USL"], .flair-usl:before {
+.content a[href="/USL"], 
+.flair-usl:before {
     background-position: -42px 0
-    }
-.content a[href="/ANT"], .flair-antigua-barracuda:before {
+}
+.content a[href="/ANT"], 
+.flair-antigua-barracuda:before {
     background-position: -42px -21px
-    }
-.content a[href="/CHB"], .md td a[href$="/CHB"],  .flair-charleston-battery:before {
+}
+
+.content a[href="/CHB"], 
+.md td a[href$="/CHB"],  
+.flair-charleston-battery:before {
     background-position: -42px -42px
-    }
-.content a[href="/CHE"], .flair-charlotte-eagles:before {
+}
+
+.content a[href="/CHE"], 
+.flair-charlotte-eagles:before {
     background-position: -42px -63px
-    }
-.content a[href="/DDL"], .content a[href="/CDL"], .flair-dayton-dutch-lions:before {
+}
+
+.content a[href="/DDL"], 
+.content a[href="/CDL"], 
+.flair-dayton-dutch-lions:before {
     background-position: -42px -84px
-    }
-.content a[href="/HBG"], .content a[href="/HCI"], .md td a[href$="/HBG"], .flair-harrisburg-city-islanders:before {
+}
+
+.content a[href="/HBG"], 
+.content a[href="/HCI"], 
+.md td a[href$="/HBG"], 
+.flair-harrisburg-city-islanders:before {
     background-position: -42px -105px
-    }
-.content a[href="/ORLUSL"], .flair-orlando-city-usl:before {
+}
+
+.content a[href="/ORLUSL"], 
+.flair-orlando-city-usl:before {
     background-position: -42px -147px
-    }
-.content a[href="/PIT"], .content a[href="/PGH"], .flair-pittsburgh-riverhounds:before {
+}
+
+.content a[href="/PIT"], 
+.content a[href="/PGH"], 
+.flair-pittsburgh-riverhounds:before {
     background-position: -42px -168px
-    }
-.content a[href="/RMD"], .flair-richmond-kickers:before {
+}
+
+.content a[href="/RMD"], 
+.flair-richmond-kickers:before {
     background-position: -42px -189px
-    }
-.content a[href="/ROC"], .content a[href="/RCH"], .md td a[href$="/ROC"], .flair-rochester-rhinos:before {
+}
+
+.content a[href="/ROC"], 
+.content a[href="/RCH"], 
+.md td a[href$="/ROC"], 
+.flair-rochester-rhinos:before {
     background-position: -42px -210px
-    }
-.content a[href="/WIL"], .flair-wilmington-hammerheads:before {
+}
+
+.content a[href="/WIL"], 
+.flair-wilmington-hammerheads:before {
     background-position: -42px -231px
-    }
-.content a[href="/PHO"], .flair-phoenix-fc:before {
+}
+
+.content a[href="/PHO"], 
+.flair-phoenix-fc:before {
     background-position: -42px -253px
-    }
-.content a[href="/SAC"], .md td a[href$="/SAC"], .flair-sacramento-republic:before {
+}
+
+.content a[href="/SAC"], 
+.md td a[href$="/SAC"], 
+.flair-sacramento-republic:before {
    background-position: -42px -294px
-   }
-.content a[href="/EFC"], .md td a[href$="/EFC"], flair-oklahoma-city-energy-fc:before {
+}
+
+.content a[href="/EFC"], 
+.md td a[href$="/EFC"], 
+flair-oklahoma-city-energy-fc:before {
    background-position: -42px -315px
-   }
-.content a[href="/OCB"], .content a[href="/OCSC"], .md td a[href$="/OCB"], .flair-orange-county-blues:before, .flair-orange-county-sc {
+}
+
+.content a[href="/OCB"], 
+.content a[href="/OCSC"], 
+.md td a[href$="/OCB"], 
+.flair-orange-county-blues:before, 
+.flair-orange-county-sc {
    background-position: -42px -336px
-   }
-.content a[href="/TUL"], .md td a[href$="/TUL"],  .flair-tulsa-roughnecks:before {
+}
+
+.content a[href="/TUL"], 
+.md td a[href$="/TUL"],  
+.flair-tulsa-roughnecks:before {
    background-position: -42px -357px
-   }
-.content a[href="/CSS"], .flair-colorado-springs-switchbacks-fc:before {
+}
+
+.content a[href="/CSS"], 
+.flair-colorado-springs-switchbacks-fc:before {
    background-position: -42px -378px
-   }
-.content a[href="/LAGII"], .flair-la-galaxy-ii:before {
+}
+
+.content a[href="/LAGII"], 
+.flair-la-galaxy-ii:before {
    background-position: -42px -399px
-   }
-.content a[href="/AZU"], .content a[href="/PHX"], .flair-arizona-united:before, .flair-phoenix-rising:before {
+}
+
+.content a[href="/AZU"], 
+.content a[href="/PHX"], 
+.flair-arizona-united:before, 
+.flair-phoenix-rising:before {
     background-position: -42px -420px
-    }
-.content a[href="/LOU"], .flair-louisville-city:before {
+}
+
+.content a[href="/LOU"], 
+.flair-louisville-city:before {
    background-position: -42px -440px
-   }
-.content a[href="/STL"], .md td a[href$="/STL"], .flair-saint-louis-fc:before {
+}
+
+.content a[href="/STL"], 
+.md td a[href$="/STL"], 
+.flair-saint-louis-fc:before {
    background-position: -42px -460px
-   }
-.content a[href="/FCM"], .flair-fc-montreal:before {
+}
+
+.content a[href="/FCM"], 
+.flair-fc-montreal:before {
    background-position: -42px -480px
-   }
-.content a[href="/TFCII"], .flair-toronto-fc-ii:before {
+}
+
+.content a[href="/TFCII"], 
+.flair-toronto-fc-ii:before {
    background-position: -42px -500px
-   }
-.content a[href="/CLI"], .flair-charlotte-independence:before {
+}
+
+.content a[href="/CLI"], 
+.flair-charlotte-independence:before {
    background-position: -42px -520px
-   }
-.content a[href="/NYRBII"], .flair-nyrb-ii:before {
+}
+
+.content a[href="/NYRBII"], 
+.flair-nyrb-ii:before {
    background-position: -42px -540px
-   }
-.content a[href="/RMSLC"], .flair-real-monarchs:before {
+}
+
+.content a[href="/RMSLC"], 
+.flair-real-monarchs:before {
    background-position: -42px -560px
-   }
-.content a[href="/POR2"], .flair-timbers-ii:before {
+}
+
+.content a[href="/POR2"], 
+.flair-timbers-ii:before {
    background-position: -42px -580px
-   }
-.content a[href="/VAN2"], .flair-whitecaps-ii:before {
+}
+
+.content a[href="/VAN2"], 
+.flair-whitecaps-ii:before {
    background-position: -42px -600px
-   }
-.content a[href="/SEA2"], .flair-sounders-ii:before {
+}
+
+.content a[href="/SEA2"], 
+.flair-sounders-ii:before {
    background-position: -42px -620px
-   }
-.content a[href="/BET"], .flair-bethlehem-steel-usl:before {
+}
+
+.content a[href="/BET"], 
+.flair-bethlehem-steel-usl:before {
    background-position: -42px -641px
-   }
-.content a[href="/FCC"], .md td a[href="/FCC"], .flair-fc-cincinnati:before {
+}
+
+.content a[href="/FCC"], 
+.md td a[href="/FCC"], 
+.flair-fc-cincinnati:before {
    background-position: -42px -662px
-   }
-.content a[href="/ORLB"], .flair-orlando-city-b:before {
+}
+
+.content a[href="/ORLB"], 
+.flair-orlando-city-b:before {
    background-position: -42px -683px
-   }
-.content a[href="/SPR"], .flair-swope-park-rangers:before {
+}
+
+.content a[href="/SPR"], 
+.flair-swope-park-rangers:before {
    background-position: -42px -704px
-   }
-.content a[href="/RGV"], .flair-rio-grande-valley-fc-toros:before {
+}
+
+.content a[href="/RGV"], 
+.flair-rio-grande-valley-fc-toros:before {
    background-position: -42px -724px
-   }
-.content a[href="/SAFC"], .flair-san-antonio-fc:before {
+}
+
+.content a[href="/SAFC"], 
+.flair-san-antonio-fc:before {
    background-position: -42px -743px
-   }
-.content a[href="/RENO"], .flair-reno-1868:before {
+}
+
+.content a[href="/RENO"], 
+.flair-reno-1868:before {
    background-position: -42px -764px
-   }
+}
+
 /* ===== NWSL =====*/
-.content a[href="/NWSL"], .flair-nwsl:before {
+.content a[href="/NWSL"], 
+.flair-nwsl:before {
 	background-position: -63px -273px
 }
-.content a[href="/BOSB"], .flair-boston-breakers:before {
+
+.content a[href="/BOSB"],
+.flair-boston-breakers:before {
     background-position: -63px -42px
 }
-.content a[href="/CHIR"], .flair-chicago-red-stars:before {
+
+.content a[href="/CHIR"], 
+.flair-chicago-red-stars:before {
     background-position: -63px -253px
 }
-.content a[href="/FCKC"], .flair-fc-kansas-city:before {
+
+.content a[href="/FCKC"], 
+.flair-fc-kansas-city:before {
     background-position: -63px -210px
 }
-.content a[href="/PORT"], .flair-portland-thorns:before {
+
+.content a[href="/PORT"], 
+.flair-portland-thorns:before {
 	background-position: -63px -166px
 }
-.content a[href="/SEAR"], .flair-seattle-reign:before {
+
+.content a[href="/SEAR"], 
+.flair-seattle-reign:before {
 	background-position: -63px -189px
 }
-.content a[href="/SBFC"], .flair-sky-blue-fc:before {
+
+.content a[href="/SBFC"], 
+.flair-sky-blue-fc:before {
     background-position: -63px -105px
-    }
-.content a[href="/WAS"], .flair-washington-spirit:before {
+}
+
+.content a[href="/WAS"], 
+.flair-washington-spirit:before {
 	background-position: -63px -231px
 }
-.content a[href="/WNYF"], .flair-western-new-york-flash:before {
+
+.content a[href="/WNYF"], 
+.flair-western-new-york-flash:before {
     background-position: -63px -126px
-    }
-.content a[href="/ORLP"], .flair-orlando-pride:before {
+}
+
+.content a[href="/ORLP"], 
+.flair-orlando-pride:before {
     background-position: -62px -315px
-    }
+}
+
 /* ===== International ===== */
-.content a[href="/WORLD"], .flair-world:before {
+.content a[href="/WORLD"], 
+.flair-world:before {
     background-position: -84px 0
-    }
-.content a[href="/USA"], .md td a[href*="/USA"], .flair-united-states:before {
+}
+
+.content a[href="/USA"], 
+.md td a[href*="/USA"], 
+.flair-united-states:before {
     background-position: -84px -21px
-    }
-.content a[href="/MEX"], .content a[href="/MEXICO"], .md td a[href*="/MEXICO"], .flair-mexico:before {
+}
+
+.content a[href="/MEX"], 
+.content a[href="/MEXICO"], 
+.md td a[href*="/MEXICO"], 
+.flair-mexico:before {
     background-position: -84px -42px
-    }
-.content a[href="/CAN"], .content a[href="/CANADA"], .md td a[href*="/CANADA"], .flair-canada:before {
+}
+
+.content a[href="/CAN"], 
+.content a[href="/CANADA"], 
+.md td a[href*="/CANADA"], 
+.flair-canada:before {
     background-position: -84px -63px
-    }
-.content a[href="/COSTARICA"], .md td a[href*="/COSTARICA"], .flair-costa-rica:before {
+}
+
+.content a[href="/COSTARICA"], 
+.md td a[href*="/COSTARICA"], 
+.flair-costa-rica:before {
     background-position: -84px -84px
-    }
-.content a[href="/CONCACAF"], .md td a[href*="/CONCACAF"], .flair-concacaf:before {
+}
+
+.content a[href="/CONCACAF"], 
+.md td a[href*="/CONCACAF"], 
+.flair-concacaf:before {
     background-position: -84px -125px
-    }
-.content a[href="/BAHAMAS"], .flair-bahamas:before {
+}
+
+.content a[href="/BAHAMAS"], 
+.flair-bahamas:before {
     background-position: -84px -166px
-    }
-.content a[href="/JAMAICA"], .md td a[href*="/JAMAICA"], .flair-jamaica:before {
+}
+
+.content a[href="/JAMAICA"], 
+.md td a[href*="/JAMAICA"], 
+.flair-jamaica:before {
     background-position: -84px -186px
-    }
-.content a[href="/PANAMA"], .content a[href="/Panama"], .md td a[href*="/PANAMA"], .flair-panama:before {
+}
+
+.content a[href="/PANAMA"], 
+.content a[href="/Panama"], 
+.md td a[href*="/PANAMA"], 
+.flair-panama:before {
     background-position: -84px -206px
-    }
-.content a[href="/HON"], .content a[href="/HONDURAS"], .md td a[href*="/HONDURAS"], .flair-honduras:before {
+}
+
+.content a[href="/HON"], 
+.content a[href="/HONDURAS"], 
+.md td a[href*="/HONDURAS"], 
+.flair-honduras:before {
     background-position: -84px -266px
-    }
-.content a[href="/CCL"], md td a[href*="/CCL"], .flair-concacaf-champions-league:before {
+}
+
+.content a[href="/CCL"], 
+md td a[href*="/CCL"], 
+.flair-concacaf-champions-league:before {
     background-position: -84px -306px
-    }
-.content a[href="/CGC"], .flair-concacaf-gold-cup:before {
+}
+
+.content a[href="/CGC"], 
+.flair-concacaf-gold-cup:before {
     background-position: -84px -326px
-    }
-.content a[href="/FIFA"], .flair-fifa:before {
+}
+
+.content a[href="/FIFA"], 
+.flair-fifa:before {
     background-position: -84px -346px
-    }
-.content a[href="/BELIZE"], .flair-belize:before {
+}
+
+.content a[href="/BELIZE"], 
+.flair-belize:before {
     background-position: -84px -466px
-    }
-.content a[href="/CUBA"], .md td a[href*="/CUBA"], .flair-cuba:before {
+}
+
+.content a[href="/CUBA"], 
+.md td a[href*="/CUBA"], 
+.flair-cuba:before {
     background-position: -84px -566px
-    }
-.content a[href="/ELSALVADOR"], .md td a[href*="/ELSALVADOR"], .flair-el-salvador:before {
+}
+
+.content a[href="/ELSALVADOR"], 
+.md td a[href*="/ELSALVADOR"], 
+.flair-el-salvador:before {
     background-position: -84px -626px
-    }
-.content a[href="/HAITI"], .md td a[href*="/HAITI"], .flair-haiti:before {
+}
+
+.content a[href="/HAITI"], 
+.md td a[href*="/HAITI"], 
+.flair-haiti:before {
     background-position: -84px -726px
-    }
-.content a[href="/TRINIDAD"], .md td a[href="/TRINIDAD"], .content a[href="/TRINIDADANDTOBAGO"], .flair-trinidad-and-tobago:before {
+}
+
+.content a[href="/TRINIDAD"], 
+.md td a[href="/TRINIDAD"], 
+.content a[href="/TRINIDADANDTOBAGO"], 
+.flair-trinidad-and-tobago:before {
     background-position: -84px -1086px
-    }
-.content a[href="/GUATEMALA"], .md td a[href*="/GUATEMALA"], .flair-guatemala:before {
+}
+
+.content a[href="/GUATEMALA"], 
+.md td a[href*="/GUATEMALA"], 
+.flair-guatemala:before {
     background-position: -84px -1246px
-    }
-.content a[href="/NICARAGUA"], .md td a[href*="/NICARAGUA"], .flair-nicaragua:before {
+}
+
+.content a[href="/NICARAGUA"], 
+.md td a[href*="/NICARAGUA"], 
+.flair-nicaragua:before {
     background-position: -84px -1266px
-    }
-.content a[href="/WORLDCUP"], .flair-world-cup:before {
+}
+
+.content a[href="/WORLDCUP"], 
+.flair-world-cup:before {
     background-position: -84px -1306px
-    }
-.content a[href="/ANTIGUA"], .flair-antigua-barbuda:before {
+}
+
+.content a[href="/ANTIGUA"], 
+.flair-antigua-barbuda:before {
     background-position: -84px -1387px
-    }
-.content a[href="/COLOMBIA"], .md td a[href*="/COLOMBIA"], .flair-colombia:before {
+}
+
+.content a[href="/COLOMBIA"], 
+.md td a[href*="/COLOMBIA"], 
+.flair-colombia:before {
     background-position: -84px -526px
-    }
-.content a[href="/BOLIVIA"], .md td a[href*="/BOLIVIA"], .flair-bolivia:before {
+}
+
+.content a[href="/BOLIVIA"], 
+.md td a[href*="/BOLIVIA"], 
+.flair-bolivia:before {
     background-position: -84px -1547px
-    }
-.content a[href="/PERU"], .md td a[href*="/PERU"], .flair-peru:before {
+}
+
+.content a[href="/PERU"], 
+.md td a[href*="/PERU"], 
+.flair-peru:before {
     background-position: -84px -226px
-    }
-.content a[href="/CHILE"], .md td a[href*="/CHILE"], .flair-chile:before {
+}
+
+.content a[href="/CHILE"], 
+.md td a[href*="/CHILE"], 
+.flair-chile:before {
     background-position: -84px -506px
-    }
-.content a[href="/BRAZIL"], .md td a[href*="/BRAZIL"], .flair-brazil:before {
+}
+
+.content a[href="/BRAZIL"], 
+.md td a[href*="/BRAZIL"], 
+.flair-brazil:before {
     background-position: -84px -486px
-    }
-.content a[href="/ARGENTINA"], .md td a[href*="/ARGENTINA"], .flair-argentina:before {
+}
+
+.content a[href="/ARGENTINA"], 
+.md td a[href*="/ARGENTINA"],
+.flair-argentina:before {
     background-position: -84px -426px
-    }
-.content a[href="/ECUADOR"], .md td a[href*="/ECUADOR"], .flair-ecuador:before {
+}
+
+.content a[href="/ECUADOR"], 
+.md td a[href*="/ECUADOR"], 
+.flair-ecuador:before {
     background-position: -84px -586px
-    }
-.content a[href="/PARAGUAY"], .md td a[href*="/PARAGUAY"], .flair-paraguay:before {
+}
+
+.content a[href="/PARAGUAY"], 
+.md td a[href*="/PARAGUAY"], 
+.flair-paraguay:before {
     background-position: -84px -946px
-    }
-.content a[href="/URUGUAY"], .md td a[href*="/URUGUAY"], .flair-uruguay:before {
+}
+
+.content a[href="/URUGUAY"], 
+.md td a[href*="/URUGUAY"], 
+.flair-uruguay:before {
     background-position: -84px -1166px
-    }
-.content a[href="/VENEZUELA"], .md td a[href*="/VENEZUELA"], .flair-venezuela:before {
+}
+
+.content a[href="/VENEZUELA"], 
+.md td a[href*="/VENEZUELA"], 
+.flair-venezuela:before {
     background-position: -84px -1206px
-    }
+}
+
 /* ===== International Clubs ===== */
-.content a[href="/BELMOPAN"], .flair-belmopan-bandits:before {
+.content a[href="/BELMOPAN"], 
+.flair-belmopan-bandits:before {
     background-position: -146px 0
-    }
-.content a[href="/METAPAN"], .flair-isidro-metapan:before {
+}
+
+.content a[href="/METAPAN"], 
+.flair-isidro-metapan:before {
     background-position: -146px -140px
-    }
-.content a[href="/ARABE"], .md td a[href$="/ARABE"], .flair-arabe-unido:before {
+}
+
+.content a[href="/ARABE"], 
+.md td a[href$="/ARABE"], 
+.flair-arabe-unido:before {
     background-position: -146px -160px
-    }
-.content a[href="/CHIVAS"], .flair-chivas-guadalajara:before {
+}
+
+.content a[href="/CHIVAS"], 
+.flair-chivas-guadalajara:before {
     background-position: -146px -180px
-    }
-.content a[href="/OLIMPIA"], .flair-olimpia:before {
+}
+
+.content a[href="/OLIMPIA"], 
+.flair-olimpia:before {
     background-position: -146px -200px
-    }
-.content a[href="/VICTORIA"], .flair-victoria:before {
+}
+
+.content a[href="/VICTORIA"], 
+.flair-victoria:before {
     background-position: -146px -220px
-    }
-.content a[href="/CLUBAMERICA"], .md td a[href*="/CLUBAMERICA"], .flair-club-america:before {
+}
+
+.content a[href="/CLUBAMERICA"], 
+.md td a[href*="/CLUBAMERICA"], 
+.flair-club-america:before {
     background-position: -146px -240px
-    }
-.content a[href="/COMUNICACIONES"], .flair-comunicaciones:before {
+}
+
+.content a[href="/COMUNICACIONES"], 
+.flair-comunicaciones:before {
     background-position: -146px -260px
-    }
-.content a[href="/CRUZAZUL"], .flair-cruz-azul:before {
+}
+
+.content a[href="/CRUZAZUL"], 
+.flair-cruz-azul:before {
     background-position: -146px -280px
-    }
-.content a[href="/ALAJUELENSE"], .flair-alajuelense:before {
+}
+
+.content a[href="/ALAJUELENSE"], 
+.flair-alajuelense:before {
     background-position: -146px -360px
-    }
-.content a[href="/MORELIA"], .flair-monarcas-morelia:before {
+}
+
+.content a[href="/MORELIA"], 
+.flair-monarcas-morelia:before {
     background-position: -146px -400px
-    }
-.content a[href="/REALESTELI"], .flair-real-esteli:before {
+}
+
+.content a[href="/REALESTELI"], 
+.flair-real-esteli:before {
     background-position: -146px -420px
-    }
-.content a[href="/REALMADRID"], .md td a[href*="/REALMADRID"], .flair-real-madrid:before {
+}
+
+.content a[href="/REALMADRID"], 
+.md td a[href*="/REALMADRID"], 
+.flair-real-madrid:before {
     background-position: -146px -440px
-    }
-.content a[href="/SANMIGUELITO"], .flair-sporting-san-miguelito:before {
+}
+
+.content a[href="/SANMIGUELITO"], 
+.flair-sporting-san-miguelito:before {
     background-position: -146px -460px
-    }
-.content a[href="/TIJUANA"], .content a[href="/XOLOS"], .flair-tijuana:before {
+}
+
+.content a[href="/TIJUANA"], 
+.content a[href="/XOLOS"], 
+.flair-tijuana:before {
     background-position: -146px -480px
-    }
-.content a[href="/TOLUCA"], .flair-toluca:before {
+}
+
+.content a[href="/TOLUCA"], 
+.flair-toluca:before {
     background-position: -146px -500px
-    }
-.content a[href="/VALENCIAFC"], .flair-valenciafc:before {
+}
+
+.content a[href="/VALENCIAFC"], 
+.flair-valenciafc:before {
     background-position: -146px -520px
-    }
-.content a[href="/WCONNECTION"], .flair-w-connection:before {
+}
+
+.content a[href="/WCONNECTION"], 
+.flair-w-connection:before {
     background-position: -146px -540px
-    }
-.content a[href="/CALEDONIA"], .flair-caledonia-aia:before {
+}
+
+.content a[href="/CALEDONIA"], 
+.flair-caledonia-aia:before {
     background-position: -146px -560px
-    }
-.content a[href="/HEREDIANO"], .flair-herediano:before {
+}
+
+.content a[href="/HEREDIANO"], 
+.flair-herediano:before {
     background-position: -146px -620px
-    }
-.content a[href="/FIRPO"], .flair-luiz-angel-firpo:before {
+}
+
+.content a[href="/FIRPO"], 
+.flair-luiz-angel-firpo:before {
     background-position: -146px -640px
-    }
-.content a[href="/CARTAGINES"], .flair-cartagines:before {
+}
+
+.content a[href="/CARTAGINES"], 
+.flair-cartagines:before {
     background-position: -146px -680px
-    }
-.content a[href="/TIGRES"], .md td a[href*="/TIGRES"], .flair-tigres:before {
+}
+
+.content a[href="/TIGRES"], 
+.md td a[href*="/TIGRES"], 
+.flair-tigres:before {
     background-position: -146px -720px
-    }
-.content a[href="/PUEBLA"], .flair-puebla:before {
+}
+
+.content a[href="/PUEBLA"], 
+.flair-puebla:before {
     background-position: -146px -740px
-    }
-.content a[href="/SANTOS"], .md td a[href*="/SANTOS"], .flair-santos-laguna:before {
+}
+
+.content a[href="/SANTOS"], 
+.md td a[href*="/SANTOS"], 
+.flair-santos-laguna:before {
     background-position: -146px -780px
-    }
-.content a[href="/XELAJU"], .flair-xelaju:before {
+}
+
+.content a[href="/XELAJU"], 
+.flair-xelaju:before {
     background-position: -146px -840px
-    }
-.content a[href="/SAPRISSA"], .flair-deportivo-saprissa:before {
+}
+
+.content a[href="/SAPRISSA"], 
+.flair-deportivo-saprissa:before {
     background-position: -146px -880px
-    }
-.content a[href="/HEREDIA"], .flair-heredia-jaguares-de-peten:before {
+}
+
+.content a[href="/HEREDIA"], 
+.flair-heredia-jaguares-de-peten:before {
     background-position: -146px -900px
-    }
-.content a[href="/ARSENAL"], .md td a[href*="/ARSENAL"], .flair-arsenal:before {
+}
+
+.content a[href="/ARSENAL"], 
+.md td a[href*="/ARSENAL"], 
+.flair-arsenal:before {
     background-position: -146px -1060px
-    }
-.content a[href="/LEON"], .flair-leon:before {
+}
+
+.content a[href="/LEON"], 
+.flair-leon:before {
     background-position: -146px -1080px
-    }
-.content a[href="/PACHUCA"], .md td a[href*="/PACHUCA"], .flair-pachuca:before {
+}
+
+.content a[href="/PACHUCA"], 
+.md td a[href*="/PACHUCA"], 
+.flair-pachuca:before {
     background-position: -146px -1100px
-    }
-.content a[href="/REALESPANA"], .flair-real-espana:before {
+}
+
+.content a[href="/REALESPANA"], 
+.flair-real-espana:before {
     background-position: -146px -1120px
-    }
-.content a[href="/MUNICIPAL"], .flair-municipal:before {
+}
+
+.content a[href="/MUNICIPAL"], 
+.flair-municipal:before {
     background-position: -146px -1140px
-    }
-.content a[href="/TAURO"], .flair-tauro:before {
+}
+
+.content a[href="/TAURO"], 
+.flair-tauro:before {
     background-position: -146px -1160px
-    }
-.content a[href="/CHORRILLO"], .flair-chorrillo:before {
+}
+
+.content a[href="/CHORRILLO"], 
+.flair-chorrillo:before {
     background-position: -146px -1140px
-    }
-.content a[href="/FAS"], .flair-fas:before {
+}
+
+.content a[href="/FAS"], 
+.flair-fas:before {
     background-position: -146px -1200px
-    }
-.content a[href="/BAYAMON"], .flair-bayamon-fc:before {
+}
+
+.content a[href="/BAYAMON"], 
+.flair-bayamon-fc:before {
     background-position: -146px -1220px
-    }
-.content a[href="/WATERHOUSE"], .flair-waterhouse:before {
+}
+
+.content a[href="/WATERHOUSE"], 
+.flair-waterhouse:before {
     background-position: -146px -1240px
-    }
-.content a[href="/ALPHA"], .flair-alpha-united:before {
+}
+
+.content a[href="/ALPHA"], 
+.flair-alpha-united:before {
     background-position: -146px -1260px
-    }
-.content a[href="/ATLAS"], .flair-atlas:before {
+}
+
+.content a[href="/ATLAS"], 
+.flair-atlas:before {
     background-position: -146px -1280px
-    }
-.content a[href="/MONTERREY"], .flair-monterrey:before {
+}
+
+.content a[href="/MONTERREY"], 
+.flair-monterrey:before {
     background-position: -147px -1300px
-    }
-.content a[href="/QUERETARO"], .md td a[href*="/QUERETARO"], .flair-queretaro:before {
+}
+
+.content a[href="/QUERETARO"], 
+.md td a[href*="/QUERETARO"], 
+.flair-queretaro:before {
     background-position: -146px -1440px
-    }
+}
+
 /* ===== Miscellaneous ===== */
 .flair-twitter:before {
     background-position: -105px -21px
-    }
-.content a[href="/CLE"], .flair-afc-cleveland:before {
+}
+
+.content a[href="/CLE"], 
+.flair-afc-cleveland:before {
     background-position: -105px -42px
-    }
-.content a[href="/AUS"], .flair-austin-aztex:before {
+}
+
+.content a[href="/AUS"], 
+.flair-austin-aztex:before {
     background-position: -105px -63px
-    }
-.content a[href="/BAL"], .flair-baltimore-bohemians:before {
+}
+
+.content a[href="/BAL"], 
+.flair-baltimore-bohemians:before {
     background-position: -105px -84px
-    }
-.content a[href="/BTR"], .flair-baton-rouge-capitals:before {
+}
+
+.content a[href="/BTR"], 
+.flair-baton-rouge-capitals:before {
     background-position: -105px -105px
-    }
-.content a[href="/CHA"], .flair-chattanooga-fc:before {
+}
+
+.content a[href="/CHA"], 
+.flair-chattanooga-fc:before {
     background-position: -105px -126px
-    }
-.content a[href="/DALS"], content a[href="/DS"], .flair-dallas-sidekicks:before {
+}
+
+.content a[href="/DALS"], 
+content a[href="/DS"], 
+.flair-dallas-sidekicks:before {
     background-position: -105px -168px
-    }
-.content a[href="/DET"], .content a[href="/DCFC"], .flair-detroit-city-fc:before {
+}
+
+.content a[href="/DET"], 
+.content a[href="/DCFC"], 
+.flair-detroit-city-fc:before {
     background-position: -105px -189px
-    }
-.content a[href="/FCNY"], .flair-fc-new-york:before {
+}
+
+.content a[href="/FCNY"], 
+.flair-fc-new-york:before {
     background-position: -105px -209px
-    }
-.content a[href="/TUS"], .flair-fc-tucson:before {
+}
+
+.content a[href="/TUS"], 
+.flair-fc-tucson:before {
     background-position: -105px -231px
-    }
-.content a[href="/FRE"], .flair-fresno-fuego:before {
+}
+
+.content a[href="/FRE"], 
+.flair-fresno-fuego:before {
     background-position: -105px -252px
-    }
-.content a[href="/HAM"], .flair-hamilton-fc:before {
+}
+
+.content a[href="/HAM"], 
+.flair-hamilton-fc:before {
     background-position: -105px -273px
-    }
-.content a[href="/KIT"], .flair-kitsap-pumas:before {
+}
+
+.content a[href="/KIT"], 
+.flair-kitsap-pumas:before {
     background-position: -105px -294px
-    }
-.content a[href="/NYW"], .flair-ny-wolves:before {
+}
+
+.content a[href="/NYW"], 
+.flair-ny-wolves:before {
     background-position: -105px -315px
-    } 
-.content a[href="/LALAS"], .flair-lalas:before {
+}
+
+.content a[href="/LALAS"], 
+.flair-lalas:before {
     background-position: -105px -336px
-    }
-.content a[href="/MAD"], .flair-madison-56ers:before {
+}
+
+.content a[href="/MAD"], 
+.flair-madison-56ers:before {
     background-position: -105px -357px
-    }
-.content a[href="/MIAF"], .flair-miami-fusion:before {
+}
+
+.content a[href="/MIAF"], 
+.flair-miami-fusion:before {
     background-position: -105px -399px
-    }
-.content a[href="/DMM"], .flair-des-moines-menace:before {
+}
+
+.content a[href="/DMM"], 
+.flair-des-moines-menace:before {
     background-position: -105px -419px
-    }
-.content a[href="/CAD"], .flair-carolina-dynamo:before {
+}
+
+.content a[href="/CAD"], 
+.flair-carolina-dynamo:before {
     background-position: -105px -439px
-    }
-.content a[href="/RUAC"], .flair-reading-united-ac:before {
+}
+
+.content a[href="/RUAC"], 
+.flair-reading-united-ac:before {
     background-position: -105px -459px
-    }
-.content a[href="/OCN"], .flair-ocean-city-noreasters:before {
+}
+
+.content a[href="/OCN"], 
+.flair-ocean-city-noreasters:before {
     background-position: -105px -500px
-    }
-.content a[href="/SACG"], .flair-sacramento-gold:before {
+}
+
+.content a[href="/SACG"], 
+.flair-sacramento-gold:before {
     background-position: -105px -560px
-    }
-.content a[href="/REDF"],  .flair-red-force-fc:before {
+}
+
+.content a[href="/REDF"],  
+.flair-red-force-fc:before {
     background-position: -105px -620px
-    }
-.content a[href="/NTX"],  .flair-ntx-rayados:before {
+}
+
+.content a[href="/NTX"],  
+.flair-ntx-rayados:before {
     background-position: -105px -640px
-    }
-.content a[href="/BEL"], .flair-bellingham-united:before {
+}
+
+.content a[href="/BEL"], 
+.flair-bellingham-united:before {
     background-position: -105px -660px
-    }
-.content a[href="/BSFC"], .flair-bethlehem-steel-fc:before {
+}
+
+.content a[href="/BSFC"], 
+.flair-bethlehem-steel-fc:before {
     background-position: -105px -680px
-    }
-.content a[href="/USOC"], .md td a[href*="/USOC"], .flair-us-open-cup:before {
+}
+
+.content a[href="/USOC"], 
+.md td a[href*="/USOC"], 
+.flair-us-open-cup:before {
     background-position: -105px -700px
-    }
-.content a[href="/VHFC"], .flair-victoria-highlanders-fc:before {
+}
+
+.content a[href="/VHFC"], 
+.flair-victoria-highlanders-fc:before {
     background-position: -105px -720px
-    }
-.content a[href="/KWU"], .flair-k-w-united-fc:before {
+}
+
+.content a[href="/KWU"], 
+.flair-k-w-united-fc:before {
     background-position: -105px -740px
-    }
-.content a[href="/TBC"], .flair-thunder-bay-chill:before {
+}
+
+.content a[href="/TBC"], 
+.flair-thunder-bay-chill:before {
     background-position: -105px -840px
-    }
-.content a[href="/PORUSL"], .flair-portland-timbers-usl:before {
+}
+
+.content a[href="/PORUSL"], 
+.flair-portland-timbers-usl:before {
     background-position: -105px -860px
-    }
-.content a[href="/MBM"], .flair-myrtle-beach-mutiny:before {
+}
+
+.content a[href="/MBM"], 
+.flair-myrtle-beach-mutiny:before {
     background-position: -105px -880px
-    }
-.content a[href="/WUFC"], .flair-wenatchee-united-fc:before {
+}
+
+.content a[href="/WUFC"], 
+.flair-wenatchee-united-fc:before {
     background-position: -105px -900px
-    }
-.content a[href="/DETR"], .flair-detroit-rockers:before {
+}
+
+.content a[href="/DETR"], 
+.flair-detroit-rockers:before {
     background-position: -105px -920px
-    }
-.content a[href="/TWELLMAN"], .flair-taylor-twellman:before {
+}
+
+.content a[href="/TWELLMAN"], 
+.flair-taylor-twellman:before {
     background-position: -105px -940px
-    }
-.content a[href="/CAL"],  .flair-cal-fc:before {
+}
+
+.content a[href="/CAL"],  
+.flair-cal-fc:before {
     background-position: -105px -960px
-    }
-.content a[href="/SDS"],  .flair-san-diego-sockers:before {
+}
+
+.content a[href="/SDS"],  
+.flair-san-diego-sockers:before {
     background-position: -105px -980px
-    }
-.content a[href="/HAL"],  .flair-halifax-city-sc:before {
+}
+
+.content a[href="/HAL"],  
+.flair-halifax-city-sc:before {
     background-position: -105px -1000px
-    }
-.content a[href="/VANV"],  .flair-vancouver-victory:before {
+}
+
+.content a[href="/VANV"],  
+.flair-vancouver-victory:before {
     background-position: -105px -1020px
-    }
-.content a[href="/SSD"],  .flair-syracuse-salty-dogs:before {
+}
+
+.content a[href="/SSD"],  
+.flair-syracuse-salty-dogs:before {
     background-position: -105px -1040px
-    }
-.content a[href="/CDA"],  .flair-cd-aguilochos-usa:before {
+}
+
+.content a[href="/CDA"],  
+.flair-cd-aguilochos-usa:before {
     background-position: -105px -1060px
-    }
-.content a[href="/VALU"],  .flair-valley-united:before {
+}
+
+.content a[href="/VALU"],  
+.flair-valley-united:before {
     background-position: -105px -1080px
-    }
-.content a[href="/NFC"],  .flair-nashville-fc:before {
+}
+
+.content a[href="/NFC"],  
+.flair-nashville-fc:before {
     background-position: -105px -1100px
-    }
-.content a[href="/WICH"],  .flair-wichita-wings:before {
+}
+
+.content a[href="/WICH"],  
+.flair-wichita-wings:before {
     background-position: -105px -1120px
-    }
-.content a[href="/BRN"],  .flair-brookhattan:before {
+}
+
+.content a[href="/BRN"],  
+.flair-brookhattan:before {
     background-position: -105px -1140px
-    }
-.content a[href="/VER"],  .flair-vermont-voltage:before {
+}
+
+.content a[href="/VER"],  
+.flair-vermont-voltage:before {
     background-position: -105px -1200px
-    }
-.content a[href="/WVC"],  .flair-west-virginia-chaos:before {
+}
+
+.content a[href="/WVC"],  
+.flair-west-virginia-chaos:before {
     background-position: -105px -1240px
-    }
-.content a[href="/OO"],  .flair-ogden-outlaws:before {
+}
+
+.content a[href="/OO"],  
+.flair-ogden-outlaws:before {
     background-position: -105px -1260px
-    }
-.content a[href="/LVM"],  .flair-las-vegas-mobsters:before {
+}
+
+.content a[href="/LVM"],  
+.flair-las-vegas-mobsters:before {
     background-position: -105px -1280px
-    }
-.content a[href="/CFCSA"],  .flair-corinthians-fc-of-san-antonio:before {
+}
+
+.content a[href="/CFCSA"],  
+.flair-corinthians-fc-of-san-antonio:before {
     background-position: -105px -1320px
-    }
-.content a[href="/POC"],  .flair-pocono-snow:before {
+}
+
+.content a[href="/POC"],  
+.flair-pocono-snow:before {
     background-position: -105px -1340px
-    }
-.content a[href="/FRM"],  .flair-fall-river-marksmen:before {
+}
+
+.content a[href="/FRM"],  
+.flair-fall-river-marksmen:before {
     background-position: -105px -1360px
-    }
-.content a[href="/LANS"],  .flair-lansing-united:before {
+}
+
+.content a[href="/LANS"],  
+.flair-lansing-united:before {
     background-position: -105px -1380px
-    }
-.content a[href="/MLS2"],  .flair-mls-retro:before {
+}
+
+.content a[href="/MLS2"],  
+.flair-mls-retro:before {
     background-position: -105px -1400px
-    }
-.content a[href="/CLB2"],  .flair-columbus-crew-retro:before {
+}
+
+.content a[href="/CLB2"],  
+.flair-columbus-crew-retro:before {
     background-position: -105px -1420px
-    }
-.content a[href="/DCU2"],  .flair-dc-united-retro:before {
+}
+
+.content a[href="/DCU2"],  
+.flair-dc-united-retro:before {
     background-position: -105px -1440px
-    }
-.content a[href="/HDL"],  .flair-houston-dutch-lions:before {
+}
+
+.content a[href="/HDL"],  
+.flair-houston-dutch-lions:before {
     background-position: -105px -1460px
-    }
-.content a[href="/MET"],  .flair-metropolitan-oval:before {
+}
+
+.content a[href="/MET"],  
+.flair-metropolitan-oval:before {
     background-position: -105px -1480px
-    }
-.content a[href="/ALB"],  .flair-albuquerque-sol:before {
+}
+
+.content a[href="/ALB"],  
+.flair-albuquerque-sol:before {
     background-position: -105px -1520px
-    }
-.content a[href="/FFC"],  .flair-fredericksburg-fc:before {
+}
+
+.content a[href="/FFC"],  
+.flair-fredericksburg-fc:before {
     background-position: -105px -1540px
-    }
-.content a[href="/CALJ"],  .flair-california-jaguars:before {
+}
+
+.content a[href="/CALJ"],  
+.flair-california-jaguars:before {
     background-position: -105px -1560px
-    }
-.content a[href="/BIR"],  .flair-birmingham-hammers:before {
+}
+
+.content a[href="/BIR"],  
+.flair-birmingham-hammers:before {
     background-position: -105px -1580px
-    }
-.content a[href="/SFF"],  .flair-san-francisco-fog:before {
+}
+
+.content a[href="/SFF"],  
+.flair-san-francisco-fog:before {
     background-position: -105px -1600px
-    }
-.content a[href="/SIGMA"],  .flair-sigma-fc:before {
+}
+
+.content a[href="/SIGMA"],  
+.flair-sigma-fc:before {
     background-position: -105px -1620px
-    }
-.content a[href="/COL2"],  .flair-colorado-rapids-retro:before {
+}
+
+.content a[href="/COL2"],  
+.flair-colorado-rapids-retro:before {
     background-position: -105px -1640px
-    }
-.content a[href="/HFC"],  .flair-harpos-fc:before {
+}
+
+.content a[href="/HFC"],  
+.flair-harpos-fc:before {
     background-position: -105px -1660px
-    }
-.content a[href="/DAY"],  .flair-dayton-dynamo:before {
+}
+
+.content a[href="/DAY"],  
+.flair-dayton-dynamo:before {
     background-position: -105px -1680px
-    }
-.content a[href="/KING"],  .flair-kingston-stockade:before {
+}
+
+.content a[href="/KING"],  
+.flair-kingston-stockade:before {
     background-position: -105px -1700px
-    }
-.content a[href="/BRFC"],  .flair-boca-raton-fc:before {
+}
+
+.content a[href="/BRFC"],  
+.flair-boca-raton-fc:before {
     background-position: -104px -1720px
-    }
-.content a[href="/LAW"],  .flair-la-wolves:before {
+}
+
+.content a[href="/LAW"],  
+.flair-la-wolves:before {
     background-position: -104px -1740px
-    }
-.content a[href="/MNO"],  .flair-motagua-new-orleans:before {
+}
+
+.content a[href="/MNO"],  
+.flair-motagua-new-orleans:before {
     background-position: -104px -1760px
-    }
-.content a[href="/OUT"],  .flair-outbreak-fc:before {
+}
+
+.content a[href="/OUT"],  
+.flair-outbreak-fc:before {
     background-position: -105px -1780px
-    }
-.content a[href="/SOU"],  .flair-southie-fc:before {
+}
+
+.content a[href="/SOU"],  
+.flair-southie-fc:before {
     background-position: -105px -1800px
-    }
-.content a[href="/BUR"],  .flair-burlingame-dragons:before {
+}
+
+.content a[href="/BUR"],  
+.flair-burlingame-dragons:before {
     background-position: -105px -1820px
-    }
-.content a[href="/CSCE"],  .flair-clarkstown-sc-eagles:before {
+}
+
+.content a[href="/CSCE"],  
+.flair-clarkstown-sc-eagles:before {
     background-position: -105px -1840px
-    }
-.content a[href="/LIRR"],  .flair-long-island-rough-riders:before {
+}
+
+.content a[href="/LIRR"],  
+.flair-long-island-rough-riders:before {
     background-position: -105px -1860px
-    }
-.content a[href="/MIS"],  .flair-mississippi-brilla:before {
+}
+
+.content a[href="/MIS"],  
+.flair-mississippi-brilla:before {
     background-position: -105px -1880px
-    }
-.content a[href="/VIL"],  .flair-the-villages-sc:before {
+}
+
+.content a[href="/VIL"],  
+.flair-the-villages-sc:before {
     background-position: -105px -1900px
-    }
-.content a[href="/SPO"],  .flair-spokane-shadow:before {
+}
+
+.content a[href="/SPO"],  
+.flair-spokane-shadow:before {
     background-position: -105px -1920px
-    }
-.content a[href="/HAK"],  .flair-new-york-hakoah:before {
+}
+
+.content a[href="/HAK"],  
+.flair-new-york-hakoah:before {
     background-position: -103px -1940px
-    }
-.content a[href="/UGH"],  .flair-united-german-hungarians:before {
+}
+
+.content a[href="/UGH"],  
+.flair-united-german-hungarians:before {
     background-position: -105px -1960px
-    }
-.content a[href="/AUR"],  .flair-aurora-borealis-sc:before {
+}
+
+.content a[href="/AUR"],  
+.flair-aurora-borealis-sc:before {
     background-position: -105px -1980px
-    }
-.content a[href="/TOR"],  .flair-tormenta-fc:before {
+}
+
+.content a[href="/TOR"],  
+.flair-tormenta-fc:before {
     background-position: -105px -2000px
-    }
-.content a[href="/CGY"],  .flair-calgary-foothills:before {
+}
+
+.content a[href="/CGY"],  
+.flair-calgary-foothills:before {
     background-position: -105px -2020px
-    }
-.content a[href="/MIAU"],  .flair-miami-united:before {
+}
+
+.content a[href="/MIAU"],  
+.flair-miami-united:before {
     background-position: -104px -2040px
-    }
-.content a[href="/SCS"],  .flair-sonoma-county-sol:before {
+}
+
+.content a[href="/SCS"],  
+.flair-sonoma-county-sol:before {
     background-position: -104px -2060px
-    }
-.content a[href="/L76"],  .flair-legacy-76:before {
+}
+
+.content a[href="/L76"],  
+.flair-legacy-76:before {
     background-position: -104px -2080px
-    }
-.content a[href="/FCGSF"],  .flair-fc-golden-state-force:before {
+}
+
+.content a[href="/FCGSF"],  
+.flair-fc-golden-state-force:before {
     background-position: -104px -2100px
-    }
-.content a[href="/SCUB"],  .flair-sc-united-bantams:before {
+}
+
+.content a[href="/SCUB"],  
+.flair-sc-united-bantams:before {
     background-position: -104px -2120px
-    }
-.content a[href="/CVFC"],  .flair-chula-vista-fc:before {
+}
+
+.content a[href="/CVFC"],  
+.flair-chula-vista-fc:before {
     background-position: -104px -2140px
-    }
-.content a[href="/MVFC"],  .flair-moreno-valley-fc:before {
+}
+
+.content a[href="/MVFC"],  
+.flair-moreno-valley-fc:before {
     background-position: -104px -2160px
-    }
-.content a[href="/COLR"],  .flair-colorado-rush:before {
+}
+
+.content a[href="/COLR"],  
+.flair-colorado-rush:before {
     background-position: -104px -2180px
-    }
-.content a[href="/GPSO"],  .flair-gps-omens:before {
+}
+
+.content a[href="/GPSO"],  
+.flair-gps-omens:before {
     background-position: -104px -2200px
-    }
-.content a[href="/ANAH"],  .flair-anahuac-fc:before {
+}
+
+.content a[href="/ANAH"],  
+.flair-anahuac-fc:before {
     background-position: -104px -2220px
-    }
-.content a[href="/JLSFC"],  .flair-junior-lone-star-fc:before {
+}
+
+.content a[href="/JLSFC"],  
+.flair-junior-lone-star-fc:before {
     background-position: -104px -2240px
-    }
-.content a[href="/NO"], .content a[href="/NOJ"], .flair-new-orleans-jesters:before {
+}
+
+.content a[href="/NO"], 
+.content a[href="/NOJ"], 
+.flair-new-orleans-jesters:before {
     background-position: -126px -42px
-    }
-.content a[href="/NYM"], .flair-metrostars:before, .flair-new-york-metrostars:before {
+}
+
+.content a[href="/NYM"], 
+.flair-metrostars:before, 
+.flair-new-york-metrostars:before {
     background-position: -126px -84px
-    }
-.content a[href="/PSG"],  .flair-puget-sound-gunners:before {
+}
+
+.content a[href="/PSG"],  
+.flair-puget-sound-gunners:before {
     background-position: -126px -105px
-    }
-.content a[href="/SDG"], .content a[href="/SDF"], .flair-san-diego-flash:before {
+}
+
+.content a[href="/SDG"], 
+.content a[href="/SDF"], 
+.flair-san-diego-flash:before {
     background-position: -126px -147px
-    }
-.content a[href="/SJC"],.flair-san-jose-clash:before {
+}
+
+.content a[href="/SJC"],
+.flair-san-jose-clash:before {
     background-position: -126px -189px
-    }
-.content a[href="/STLL"], .flair-st-louis-lions:before {
+}
+
+.content a[href="/STLL"], 
+.flair-st-louis-lions:before {
     background-position: -126px -210px
-    }
-.content a[href="/TAC"], .flair-tacoma-stars:before {
+}
+
+.content a[href="/TAC"], 
+.flair-tacoma-stars:before {
     background-position: -126px -231px
-    }
-.content a[href="/FBM"], .flair-free-beer-movement:before {
+}
+
+.content a[href="/FBM"], 
+.flair-free-beer-movement:before {
     background-position: -126px -273px
-    }
-.content a[href="/MIB"], .flair-michigan-bucks:before {
+}
+
+.content a[href="/MIB"], 
+.flair-michigan-bucks:before {
     background-position: -126px -294px
-    }
-.content a[href="/BUF"], .flair-fc-buffalo:before {
+}
+
+.content a[href="/BUF"], 
+.flair-fc-buffalo:before {
     background-position: -126px -315px
-    }
-.content a[href="/DALB"], .flair-dallas-burn:before {
+}
+
+.content a[href="/DALB"], 
+.flair-dallas-burn:before {
     background-position: -126px -336px
-    }
-.content a[href="/KNO"], .flair-knoxville-force:before {
+}
+
+.content a[href="/KNO"], 
+.flair-knoxville-force:before {
     background-position: -126px -357px
-    }
-.content a[href="/DCR"], .flair-derby-city-rovers:before {
+}
+
+.content a[href="/DCR"], 
+.flair-derby-city-rovers:before {
     background-position: -126px -378px
-    }
-.content a[href="/TBM"], .flair-tampa-bay-mutiny:before {
+}
+
+.content a[href="/TBM"], 
+.flair-tampa-bay-mutiny:before {
     background-position: -126px -419px
-    }
-.content a[href="/GPS"], .flair-gps-portland-phoenix:before {
+}
+
+.content a[href="/GPS"], 
+.flair-gps-portland-phoenix:before {
     background-position: -126px -440px
-    }
-.content a[href="/LVU"], .flair-lehigh-valley-united-sonic:before {
+}
+
+.content a[href="/LVU"], 
+.flair-lehigh-valley-united-sonic:before {
     background-position: -126px -460px
-    }
-.content a[href="/VCF"], .flair-ventura-county-fusion:before {
+}
+
+.content a[href="/VCF"], 
+.flair-ventura-county-fusion:before {
     background-position: -126px -520px
-    }
-.content a[href="/RWB"], .flair-rwb-adria:before {
+}
+
+.content a[href="/RWB"], 
+.flair-rwb-adria:before {
     background-position: -126px -600px
-    }
-.content a[href="/WMP"], .flair-western-mass-pioneers:before {
+}
+
+.content a[href="/WMP"], 
+.flair-western-mass-pioneers:before {
     background-position: -126px -620px
-    }
-.content a[href="/OKCFC"], .flair-oklahoma-city-fc:before {
+}
+
+.content a[href="/OKCFC"], 
+.flair-oklahoma-city-fc:before {
     background-position: -126px -660px
-    }
-.content a[href="/MTLNASL"], .flair-montreal-impact-nasl:before {
+}
+
+.content a[href="/MTLNASL"], 
+.flair-montreal-impact-nasl:before {
     background-position: -126px -680px
-    }
-.content a[href="/CANC"], .flair-canadian-championship:before {
+}
+
+.content a[href="/CANC"], 
+.flair-canadian-championship:before {
     background-position: -126px -700px
-    }
-.content a[href="/FCL"], .flair-fc-london:before {
+}
+
+.content a[href="/FCL"], 
+.flair-fc-london:before {
     background-position: -126px -720px
-    }
-.content a[href="/MIL"], .flair-milwaukee-bavarians:before {
+}
+
+.content a[href="/MIL"], 
+.flair-milwaukee-bavarians:before {
     background-position: -126px -740px
-    }
-.content a[href="/KCW"], .flair-kansas-city-wizards:before {
+}
+
+.content a[href="/KCW"], 
+.flair-kansas-city-wizards:before {
     background-position: -126px -760px
-    }
-.content a[href="/DETE"], .flair-detroit-express:before {
+}
+
+.content a[href="/DETE"], 
+.flair-detroit-express:before {
     background-position: -126px -780px
-    }
-.content a[href="/TULA"], .flair-tulsa-athletics:before {
+}
+
+.content a[href="/TULA"], 
+.flair-tulsa-athletics:before {
     background-position: -126px -820px
-    }
-.content a[href="/EPL"], .flair-evergreen-premier-league:before {
+}
+
+.content a[href="/EPL"], 
+.flair-evergreen-premier-league:before {
     background-position: -126px -880px
-    }
-.content a[href="/FCTB"], .flair-fc-tampa-bay:before {
+}
+
+.content a[href="/FCTB"], 
+.flair-fc-tampa-bay:before {
     background-position: -126px -840px
-    }
-.content a[href="/BEAR"], .flair-bearfight-fc:before {
+}
+
+.content a[href="/BEAR"], 
+.flair-bearfight-fc:before {
     background-position: -126px -920px
-    }
-.content a[href="/DASH"], .flair-houston-dash:before {
+}
+
+.content a[href="/DASH"], 
+.flair-houston-dash:before {
     background-position: -126px -960px
-    }
-.content a[href="/WIL2"], .flair-wilmington-hammerheads-retro:before {
+}
+
+.content a[href="/WIL2"], 
+.flair-wilmington-hammerheads-retro:before {
     background-position: -126px -1000px
-    }
-.content a[href="/LAG2"], .flair-la-galaxy-retro:before {
+}
+
+.content a[href="/LAG2"], 
+.flair-la-galaxy-retro:before {
     background-position: -126px -1020px
-    }
-.content a[href="/TEFC"], .flair-temecula-fc:before {
+}
+
+.content a[href="/TEFC"], 
+.flair-temecula-fc:before {
     background-position: -126px -1080px
-    }
-.content a[href="/GRFC"], .flair-grand-rapids-fc:before {
+}
+
+.content a[href="/GRFC"], 
+.flair-grand-rapids-fc:before {
     background-position: -126px -1100px
-    }
-.content a[href="/LANE"], .flair-lane-united:before {
+}
+
+.content a[href="/LANE"], 
+.flair-lane-united:before {
     background-position: -126px -1120px
-    }
-.content a[href="/JB93"], .flair-juventus-black-93:before {
+}
+
+.content a[href="/JB93"], 
+.flair-juventus-black-93:before {
     background-position: -126px -1140px
-    }
-.content a[href="/JER"], .flair-jersey-express:before {
+}
+
+.content a[href="/JER"], 
+.flair-jersey-express:before {
     background-position: -126px -1160px
-    }
-.content a[href="/GBT"], .flair-greater-binghamton-thunder:before {
+}
+
+.content a[href="/GBT"], 
+.flair-greater-binghamton-thunder:before {
     background-position: -126px -1200px
-    }
-.content a[href="/UTF"], .flair-utah-freezz:before {
+}
+
+.content a[href="/UTF"], 
+.flair-utah-freezz:before {
     background-position: -126px -1240px
-    }
-.content a[href="/UTB"], .flair-utah-blitzz:before {
+}
+
+.content a[href="/UTB"], 
+.flair-utah-blitzz:before {
     background-position: -126px -1260px
-    }
-.content a[href="/CIN"], .flair-cincinnati-saints:before {
+}
+
+.content a[href="/CIN"], 
+.flair-cincinnati-saints:before {
     background-position: -126px -1280px
-    }
-.content a[href="/SFS"], .flair-sioux-falls-spitfire:before {
+}
+
+.content a[href="/SFS"], 
+.flair-sioux-falls-spitfire:before {
     background-position: -126px -1300px
-    }
-.content a[href="/ACC"], .flair-ac-connecticut:before {
+}
+
+.content a[href="/ACC"], 
+.flair-ac-connecticut:before {
     background-position: -126px -1340px
-    }
-.content a[href="/ECS"], .flair-electric-city-shock:before {
+}
+
+.content a[href="/ECS"], 
+.flair-electric-city-shock:before {
     background-position: -126px -1360px
-    }
-.content a[href="/WAZA"], .flair-detroit-waza:before {
+}
+
+.content a[href="/WAZA"], 
+.flair-detroit-waza:before {
     background-position: -126px -1380px
-    }
-.content a[href="/OSA"], .flair-osa-fc:before {
+}
+
+.content a[href="/OSA"], 
+.flair-osa-fc:before {
     background-position: -126px -1460px
-    }
-.content a[href="/EPP"], .flair-el-paso-patriots:before {
+}
+
+.content a[href="/EPP"], 
+.flair-el-paso-patriots:before {
     background-position: -126px -1480px
-    }
-.content a[href="/ARKC"], .flair-arkansas-comets:before {
+}
+
+.content a[href="/ARKC"], 
+.flair-arkansas-comets:before {
     background-position: -126px -1500px
-    }
-.content a[href="/KIXX"],  .flair-philadelphia-kixx:before {
+}
+
+.content a[href="/KIXX"],  
+.flair-philadelphia-kixx:before {
     background-position: -126px -1520px
-    }
-.content a[href="/SFCFC"], .flair-san-francisco-city-fc:before {
+}
+
+.content a[href="/SFCFC"], 
+.flair-san-francisco-city-fc:before {
     background-position: -126px -1540px
-    }
-.content a[href="/ACSTL"], .flair-ac-st-louis:before {
+}
+
+.content a[href="/ACSTL"], 
+.flair-ac-st-louis:before {
     background-position: -126px -1560px
-    }
-.content a[href="/FUTSOC"], .flair-futsoc:before {
+}
+
+.content a[href="/FUTSOC"], 
+.flair-futsoc:before {
     background-position: -126px -1580px
-    }
-.content a[href="/USWNT"], .flair-uswnt:before {
+}
+
+.content a[href="/USWNT"], 
+.flair-uswnt:before {
     background-position: -126px -1600px
-    }
-.content a[href="/CRR"], .flair-cedar-rapids-rampage:before {
+}
+
+.content a[href="/CRR"], 
+.flair-cedar-rapids-rampage:before {
     background-position: -126px -1620px
-    }
-.content a[href="/WF"], .flair-westchester-flames:before {
+}
+
+.content a[href="/WF"], 
+.flair-westchester-flames:before {
     background-position: -126px -1640px
-    }
-.content a[href="/AAA"], .flair-afc-ann-arbor:before {
+}
+
+.content a[href="/AAA"], 
+.flair-afc-ann-arbor:before {
     background-position: -126px -1660px
-    }
-.content a[href="/MEM"], .flair-memphis-city-fc:before {
+}
+
+.content a[href="/MEM"], 
+.flair-memphis-city-fc:before {
     background-position: -127px -1680px
-    }
-.content a[href="/ACFC"], .flair-aromas-cafe-fc:before {
+}
+
+.content a[href="/ACFC"], 
+.flair-aromas-cafe-fc:before {
     background-position: -127px -1700px
-    }
-.content a[href="/LB"], .flair-lansdowne-bhoys:before {
+}
+
+.content a[href="/LB"],
+.flair-lansdowne-bhoys:before {
     background-position: -127px -1720px
-    }
-.content a[href="/MAQ"], .flair-la-maquina-fc:before {
+}
+
+.content a[href="/MAQ"], 
+.flair-la-maquina-fc:before {
     background-position: -127px -1740px
-    }
-.content a[href="/NYPF"], .flair-new-york-pancyprian-freedoms:before {
+}
+
+.content a[href="/NYPF"], 
+.flair-new-york-pancyprian-freedoms:before {
     background-position: -127px -1760px
-    }
-.content a[href="/SNFC"], .flair-san-nicolas-fc:before {
+}
+
+.content a[href="/SNFC"], 
+.flair-san-nicolas-fc:before {
     background-position: -127px -1780px
-    }
-.content a[href="/WCU"], .flair-west-chester-united:before {
+}
+
+.content a[href="/WCU"], 
+.flair-west-chester-united:before {
     background-position: -127px -1800px
-    }
-.content a[href="/CUFC"], .flair-chesterfield-united-fc:before {
+}
+
+.content a[href="/CUFC"], 
+.flair-chesterfield-united-fc:before {
     background-position: -127px -1820px
-    }
-.content a[href="/FCW"], .flair-fc-wichita:before {
+}
+
+.content a[href="/FCW"], 
+.flair-fc-wichita:before {
     background-position: -127px -1840px
-    }
-.content a[href="/MFFC"], .flair-miami-fusion-fc:before {
+}
+
+.content a[href="/MFFC"], 
+.flair-miami-fusion-fc:before {
     background-position: -127px -1860px
-    }
-.content a[href="/SUP"], .flair-seacoast-united-phantoms:before {
+}
+
+.content a[href="/SUP"], 
+.flair-seacoast-united-phantoms:before {
     background-position: -127px -1880px
-    }
-.content a[href="/KRAZE"], .flair-kraze-united:before {
+}
+
+.content a[href="/KRAZE"], 
+.flair-kraze-united:before {
     background-position: -127px -1900px
-    }
-.content a[href="/RMDS"], .flair-richmond-strikers:before {
+}
+
+.content a[href="/RMDS"], 
+.flair-richmond-strikers:before {
     background-position: -127px -1920px
-    }
-.content a[href="/CHIL"], .flair-chilliwack-fc:before {
+}
+
+.content a[href="/CHIL"], 
+.flair-chilliwack-fc:before {
     background-position: -127px -1940px
-    }
-.content a[href="/SSU"], .flair-south-shore-united:before {
+}
+
+.content a[href="/SSU"], 
+.flair-south-shore-united:before {
     background-position: -127px -1960px
-    }
-.content a[href="/SWSA"], .flair-southwest-washington-soccer-association:before {
+}
+
+.content a[href="/SWSA"], 
+.flair-southwest-washington-soccer-association:before {
     background-position: -127px -1980px
-    }
-.content a[href="/MKE"], .flair-milwaukee-torrent:before {
+}
+
+.content a[href="/MKE"], 
+.flair-milwaukee-torrent:before {
     background-position: -127px -2000px
-    }
-.content a[href="/ASCP"], .flair-albion-sc-pros:before {
+}
+
+.content a[href="/ASCP"], 
+.flair-albion-sc-pros:before {
     background-position: -127px -2020px
-    }
-.content a[href="/NJC"], .flair-new-jersey-copa:before {
+}
+
+.content a[href="/NJC"], 
+.flair-new-jersey-copa:before {
     background-position: -127px -2040px
-    }
-.content a[href="/BOSC"], .flair-boston-city:before {
+}
+
+.content a[href="/BOSC"], 
+.flair-boston-city:before {
     background-position: -127px -2060px
-    }
-.content a[href="/CFCU"], .flair-chicago-fc-united:before {
+}
+
+.content a[href="/CFCU"], 
+.flair-chicago-fc-united:before {
     background-position: -127px -2080px
-    }
-.content a[href="/SDZ"], .flair-san-diego-zest:before {
+}
+
+.content a[href="/SDZ"], 
+.flair-san-diego-zest:before {
     background-position: -127px -2100px
-    }
-.content a[href="/SFSU"], .flair-south-florida-surf:before {
+}
+
+.content a[href="/SFSU"], 
+.flair-south-florida-surf:before {
     background-position: -127px -2120px
-    }
-.content a[href="/ELF"], .flair-el-farolito:before {
+}
+
+.content a[href="/ELF"], 
+.flair-el-farolito:before {
     background-position: -127px -2140px
-    }
-.content a[href="/CHRI"], .md td a[href="/CHRI"], .flair-christos-fc:before {
+}
+
+.content a[href="/CHRI"], 
+.md td a[href="/CHRI"], 
+.flair-christos-fc:before {
     background-position: -127px -2160px
-    }
-.content a[href="/AZTFC"], .flair-azteca-fc:before {
+}
+
+.content a[href="/AZTFC"], 
+.flair-azteca-fc:before {
     background-position: -127px -2180px
-    }
-.content a[href="/MOTO"], .flair-fc-motown:before {
+}
+
+.content a[href="/MOTO"], 
+.flair-fc-motown:before {
     background-position: -127px -2200px
-    }
-.content a[href="/TDOA"], .flair-tartan-devils-oak-avalon:before {
+}
+
+.content a[href="/TDOA"], 
+.flair-tartan-devils-oak-avalon:before {
     background-position: -127px -2220px
-    }
+}
+
 /* ===== Superclass for all retro NASL flair functions ===== */
-a[href="/CHIEFS"], a[href="/MUSTANGS"], a[href="/STING"], a[href="/EXPRESS"], a[href="/GBEARTHQUAKES"], a[href="/HARBICENTENNIALS"], a[href="/JAXTEAMEN"], a[href="/AZTECS"], a[href="/LAA"], a[href="/WOLVES"], a[href="/ROGUES"], a[href="/OLYMPIQUE"], a[href="/NETEAMEN"], a[href="/GENERALS"], a[href="/NYG"], a[href="/STOMPERS"], a[href="/TIMBERS"], a[href="/PORNASL"], a[href="/GALES"], a[href="/GGG"], a[href="/EARTHQUAKES"], a[href="/SOUNDERS"], a[href="/SEANASL"], a[href="/AMERICA"], a[href="/BLIZZARD"], a[href="/ROUGHNECKS"], a[href="/TULR"], a[href="/WHITECAPS"], a[href="/DIPLOMATS"] {
+a[href="/CHIEFS"], 
+a[href="/MUSTANGS"], 
+a[href="/STING"], 
+a[href="/EXPRESS"], 
+a[href="/GBEARTHQUAKES"], 
+a[href="/HARBICENTENNIALS"], 
+a[href="/JAXTEAMEN"], 
+a[href="/AZTECS"], 
+a[href="/LAA"], 
+a[href="/WOLVES"], 
+a[href="/ROGUES"], 
+a[href="/OLYMPIQUE"], 
+a[href="/NETEAMEN"], 
+a[href="/GENERALS"], 
+a[href="/NYG"], 
+a[href="/STOMPERS"], 
+a[href="/TIMBERS"], 
+a[href="/PORNASL"], 
+a[href="/GALES"], 
+a[href="/GGG"], 
+a[href="/EARTHQUAKES"], 
+a[href="/SOUNDERS"], 
+a[href="/SEANASL"], 
+a[href="/AMERICA"], 
+a[href="/BLIZZARD"], 
+a[href="/ROUGHNECKS"], 
+a[href="/TULR"], 
+a[href="/WHITECAPS"], 
+a[href="/DIPLOMATS"] {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -3403,91 +4212,137 @@ a[href="/CHIEFS"], a[href="/MUSTANGS"], a[href="/STING"], a[href="/EXPRESS"], a[
     vertical-align: middle;
     margin-right: 3px;
     border-width: 0
-    }
-.content a[href="/CHIEFS"], .flair-atlanta-chiefs:before {
+}
+
+.content a[href="/CHIEFS"], 
+.flair-atlanta-chiefs:before {
     background-position: -166px -60px
 }
-.content a[href="/MUSTANGS"], .flair-chicago-mustangs:before {
+
+.content a[href="/MUSTANGS"], 
+.flair-chicago-mustangs:before {
     background-position: -166px -220px
 }
-.content a[href="/STING"], .flair-chicago-sting:before {
+
+.content a[href="/STING"], 
+.flair-chicago-sting:before {
     background-position: -166px -260px
 }
-.content a[href="/EXPRESS"], .flair-detroit-express-2:before {
+
+.content a[href="/EXPRESS"], 
+.flair-detroit-express-2:before {
     background-position: -166px -380px
 }
-.content a[href="/GBEARTHQUAKES"], .flair-golden-bay-earthquakes:before {
+
+.content a[href="/GBEARTHQUAKES"], 
+.flair-golden-bay-earthquakes:before {
     background-position: -166px -440px
 }
-.content a[href="/HARBICENTENNIALS"], .flair-hartford-bicentennials:before {
+
+.content a[href="/HARBICENTENNIALS"], 
+.flair-hartford-bicentennials:before {
     background-position: -166px -460px
 }
-.content a[href="/JAXTEAMEN"], .flair-jacksonville-tea-men:before {
+
+.content a[href="/JAXTEAMEN"], 
+.flair-jacksonville-tea-men:before {
     background-position: -166px -520px
 }
-.content a[href="/AZTECS"], .content a[href="/LAA"], .flair-la-aztecs:before {
+
+.content a[href="/AZTECS"], 
+.content a[href="/LAA"], 
+.flair-la-aztecs:before {
     background-position: -166px -580px
 }
-.content a[href="/WOLVES"], .flair-la-wolves-nasl:before {
+
+.content a[href="/WOLVES"], 
+.flair-la-wolves-nasl:before {
     background-position: -166px -620px
 }
-.content a[href="/ROGUES"], .flair-memphis-rogues:before {
+
+.content a[href="/ROGUES"], 
+.flair-memphis-rogues:before {
     background-position: -166px -640px
 }
-.content a[href="/OLYMPIQUE"], .flair-montreal-olympique:before {
+
+.content a[href="/OLYMPIQUE"], 
+.flair-montreal-olympique:before {
     background-position: -166px -760px
 }
-.content a[href="/NETEAMEN"], .flair-new-england-tea-men:before {
+
+.content a[href="/NETEAMEN"], 
+.flair-new-england-tea-men:before {
     background-position: -166px -780px
 }
-.content a[href="/GENERALS"], .content a[href="/NYG"], .flair-new-york-generals:before {
+
+.content a[href="/GENERALS"], 
+.content a[href="/NYG"], 
+.flair-new-york-generals:before {
     background-position: -166px -820px
 }
-.content a[href="/STOMPERS"], .flair-oakland-stompers:before {
+
+.content a[href="/STOMPERS"], 
+.flair-oakland-stompers:before {
     background-position: -166px -880px
 }
-.content a[href="/TIMBERS"], .content a[href="/PORNASL"], .flair-portland-timbers-nasl:before {
+
+.content a[href="/TIMBERS"], 
+.content a[href="/PORNASL"], 
+.flair-portland-timbers-nasl:before {
     background-position: -166px -980px
 }
-.content a[href="/SDTOROS"], .flair-san-diego-toros:before {
+
+.content a[href="/SDTOROS"], 
+.flair-san-diego-toros:before {
     background-position: -166px -1080px
 }
-.content a[href="/GALES"], .content a[href="/GGG"], .flair-san-francisco-golden-gate-gales:before {
+
+.content a[href="/GALES"], 
+.content a[href="/GGG"], 
+.flair-san-francisco-golden-gate-gales:before {
     background-position: -166px -1100px
 }
-.content a[href="/EARTHQUAKES"], .flair-san-jose-earthquakes-nasl:before {
+
+.content a[href="/EARTHQUAKES"], 
+.flair-san-jose-earthquakes-nasl:before {
     background-position: -166px -1120px
 }
-.content a[href="/SOUNDERS"], .content a[href="/SEANASL"], .flair-seattle-sounders-nasl:before {
+
+.content a[href="/SOUNDERS"], 
+.content a[href="/SEANASL"], 
+.flair-seattle-sounders-nasl:before {
     background-position: -166px -1140px
 }
-.content a[href="/AMERICA"], .flair-team-america:before {
+
+.content a[href="/AMERICA"], 
+.flair-team-america:before {
     background-position: -166px -1200px
 }
+
 .content a[href="/BLIZZARD"],
  .flair-toronto-blizzard:before {
     background-position: -166px -1240px
 }
 
 .content a[href="/ROUGHNECKS"],
- .content a[href="/TULR"],
-  .flair-tulsa-roughnecks-nasl:before {
+.content a[href="/TULR"],
+.flair-tulsa-roughnecks-nasl:before {
     background-position: -166px -1340px
 }
 .content a[href="/WHITECAPS"],
- .flair-vancouver-whitecaps-nasl:before {
+.flair-vancouver-whitecaps-nasl:before {
     background-position: -166px -1380px
 }
 
 .content a[href="/DIPLOMATS"],
- .flair-washington-diplomats:before {
+.flair-washington-diplomats:before {
     background-position: -166px -1420px
 }
 
 /*Announcement*/
 .content{
-margin-top:20px;
-margin-right:310px;
+    margin-top:20px;
+    margin-right:310px;
 }
 
 .side .md h3:nth-of-type(1) {
