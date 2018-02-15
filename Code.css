@@ -1,4 +1,4 @@
-/* Downvote pop up	-----------------------------------------*/
+/* Downvote pop up    -----------------------------------------*/
 
 .comment .midcol .arrow.down:hover:after{
     content: "Please reserve downvotes for comments that add nothing to the discussion.";
@@ -19,51 +19,51 @@
 /* ---------------------Black Header Bar ----------------------------*/
 
 #sr-header-area{
-	display:block;
-	width:100%;
-	min-width:1000px;
-	height:20px;
-	position:relative;
-	top:0;
-	left:0;
-	background: #303030;
-	border-bottom:none !important;
+    display:block;
+    width:100%;
+    min-width:1000px;
+    height:20px;
+    position:relative;
+    top:0;
+    left:0;
+    background: #303030;
+    border-bottom:none !important;
 }
 
 #sr-header-area .width-clip{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #sr-header-area a,
 div.srdrop span{
-	color: #fff !important;
+    color: #fff !important;
 }
 
 #sr-header-area div.srdrop.drop-choices a.choice {
-        color: #336699 !important;
+    color: #336699 !important;
 }
 
 #sr-header-area #sr-more-link {
-        background-color: #333;
+    background-color: #333;
 }
 
 a.gold{
-	color: #9a7d2e !important;
+    color: #9a7d2e !important;
 }
 
 
 body table#srList {
-        top: 20px;
+    top: 20px;
 }
 #srLeftContainer{
-	padding: 0;
-	margin-left: 10px;
+    padding: 0;
+    margin-left: 10px;
 }
 
 div#RESShortcutsViewport{
-	padding: 0;
-	margin-right:60px;
+    padding: 0;
+    margin-right:60px;
 }
 
 #RESShortcutsRight, 
@@ -101,23 +101,21 @@ div#RESShortcutsViewport{
     padding-left: 3px;
 }
 .keyHighlight{
-	outline: none !important;
+    outline: none !important;
     background:#e6effa !important;
     border-radius: 2px !important;
 }
 .keyHighlight p.title a.title{
-	text-decoration: underline;
+    text-decoration: underline;
 }
  
-
-
 /* --------Login Form ---------- */
 
 .login-form-side {
-	margin: 0 0 10px;
-	padding: 10px 0 0;
-	border: 1px solid #eee;
-	border-width: 1px 0;
+    margin: 0 0 10px;
+    padding: 10px 0 0;
+    border: 1px solid #eee;
+    border-width: 1px 0;
 }
 
 .login-form-side input[type=text],
@@ -239,27 +237,27 @@ div#RESShortcutsViewport{
 /* User Notification Bar */
 
 #header-bottom-right{
-	position: absolute;
-	top: 19px;
-	right: 5px !important;
-	background: none transparent !important;
-	display: block;
-	height: 23px !important;
+    position: absolute;
+    top: 19px;
+    right: 5px !important;
+    background: none transparent !important;
+    display: block;
+    height: 23px !important;
 }
 
 body.res #header #header-bottom-right{
-	position: absolute;
-	top: 19px !important;
-	right: 5px !important;
-	background: none transparent !important;
-	display: block;
-	height: 23px !important;
+    position: absolute;
+    top: 19px !important;
+    right: 5px !important;
+    background: none transparent !important;
+    display: block;
+    height: 23px !important;
 }
 
 #userbarToggle{
-	color: white !important;
-	background: none transparent !important;
-	border: none !important;
+    color: white !important;
+    background: none transparent !important;
+    border: none !important;
 }
 
 #header-bottom-right a, #header-bottom-right .user {
@@ -267,9 +265,9 @@ body.res #header #header-bottom-right{
 }
 
 #userbarToggle:hover a,#userbarToggle:hover {
-	color: #89DE25 !important;
-	background: none transparent !important;
-	border: none !important;
+    color: #89DE25 !important;
+    background: none transparent !important;
+    border: none !important;
 }
 
 #header-bottom-right:hover a, 
@@ -635,8 +633,8 @@ body div.side .nub {
 
 
 .footer-parent {
-	padding-top: 180px;
-	background: url(%%logo-3%%) top center no-repeat;
+    padding-top: 180px;
+    background: url(%%logo-3%%) top center no-repeat;
 }
 
 /*-----Redditname Settings--- */
@@ -699,10 +697,10 @@ body.comments-page.res div.content .commentarea {
     margin: 0px !important; 
     padding: 0px !important;
 }
-	
+    
 .commentarea .comment .child {
     margin: 6px 0px 0px 35px !important;
-	border-left: 1px dotted #D5D5D5 !important;
+    border-left: 1px dotted #D5D5D5 !important;
 }
 
 .comment .entry {
@@ -731,7 +729,7 @@ body.comments-page.res div.content .commentarea {
     background-color: transparent !important;
     padding: 0px !important; 
 }
-		
+    
 .sitetable.nestedlisting {
     background-color: #fafafa;
     padding: 0px!important;
@@ -2806,7 +2804,7 @@ flair-oklahoma-city-energy-fc:before {
 /* ===== NWSL =====*/
 .content a[href="/NWSL"], 
 .flair-nwsl:before {
-	background-position: -63px -273px
+    background-position: -63px -273px
 }
 
 .content a[href="/BOSB"],
@@ -2826,12 +2824,12 @@ flair-oklahoma-city-energy-fc:before {
 
 .content a[href="/PORT"], 
 .flair-portland-thorns:before {
-	background-position: -63px -166px
+    background-position: -63px -166px
 }
 
 .content a[href="/SEAR"], 
 .flair-seattle-reign:before {
-	background-position: -63px -189px
+    background-position: -63px -189px
 }
 
 .content a[href="/SBFC"], 
@@ -2841,7 +2839,7 @@ flair-oklahoma-city-energy-fc:before {
 
 .content a[href="/WAS"], 
 .flair-washington-spirit:before {
-	background-position: -63px -231px
+    background-position: -63px -231px
 }
 
 .content a[href="/WNYF"], 
@@ -4364,7 +4362,7 @@ a[href="/DIPLOMATS"] {
 .side .md h3:nth-of-type(1) a:active,
 .side .md h3:nth-of-type(1) a:visited,
 .side .md h3:nth-of-type(1) a:link {
-	color: 	#000000;
+    color:     #000000;
 }
 
 .side .md h3:nth-of-type(1) a:hover {
